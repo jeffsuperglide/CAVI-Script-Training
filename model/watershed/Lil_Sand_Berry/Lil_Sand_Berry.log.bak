@@ -282,3 +282,21 @@
 14Nov2022:14:58:38-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
 14Nov2022:14:58:38-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
 14Nov2022:14:58:39-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+14Nov2022:17:01:04-INFO-u4rs9jsg-Project Closed
+11May2023:09:30:49-INFO-u4rs9jsg-Project Opened
+11May2023:09:30:54-INFO-u4rs9jsg-Added Manager RoG_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+11May2023:09:30:54-INFO-u4rs9jsg-Added Manager Post Process type hec2.rts.plugin.model.ModelAlternativeManager
+11May2023:09:30:54-INFO-u4rs9jsg-Added Manager LSR_Reduction type hec2.rts.plugin.model.ModelAlternativeManager
+11May2023:09:30:54-INFO-u4rs9jsg-Added Manager LSR_Snow type hec2.rts.plugin.model.ModelAlternativeManager
+11May2023:09:30:54-INFO-u4rs9jsg-Added Manager LSR_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+11May2023:09:30:54-INFO-u4rs9jsg-Added Manager LSR_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+11May2023:09:30:54-INFO-u4rs9jsg-Added Manager NormOps-M type hec2.rts.plugin.model.ModelAlternativeManager
+11May2023:09:30:54-INFO-u4rs9jsg-Added Manager NormOps-MC type hec2.rts.plugin.model.ModelAlternativeManager
+11May2023:09:30:54-INFO-u4rs9jsg-Added Manager NormOpsSum type hec2.rts.plugin.model.ModelAlternativeManager
+11May2023:09:30:54-INFO-u4rs9jsg-Added Manager NormOpsWin type hec2.rts.plugin.model.ModelAlternativeManager
+11May2023:09:30:54-INFO-u4rs9jsg-Added Manager WPC_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+11May2023:09:30:54-INFO-u4rs9jsg-Added Manager HRRR_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+11May2023:09:30:54-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+11May2023:09:30:54-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+11May2023:09:30:55-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+11May2023:09:30:55-INFO-u4rs9jsg-setManagerOrder: TODO Implement me

@@ -1,30 +1,30 @@
-    -----DSS---ZOPEN:  Existing File Opened,  File: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\Lil_Sand_Berry\hms\LSR_Reduction.dss
+    -----DSS---ZOPEN:  Existing File Opened,  File: C:\Users\u4rs9jsg\projects\CWMS-CAVI-Script-Training\model\watershed\Lil_Sand_Berry\hms\LSR_Reduction.dss
                        Unit:    3;  DSS Versions - Software: 6-YN, File: 6-YN,  Library 7-HK
-    -----DSS---ZOPEN:  Existing File Opened,  File: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\Lil_Sand_Berry\hms\LSR_Snow.dss
+    -----DSS---ZOPEN:  Existing File Opened,  File: C:\Users\u4rs9jsg\projects\CWMS-CAVI-Script-Training\model\watershed\Lil_Sand_Berry\hms\LSR_Snow.dss
                        Unit:    4;  DSS Versions - Software: 6-YN, File: 6-YN,  Library 7-HK
-    -----DSS---ZOPEN:  Existing File Opened,  File: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\Lil_Sand_Berry\hms\LRH_Little_Sandy.dss
+    -----DSS---ZOPEN:  Existing File Opened,  File: C:\Users\u4rs9jsg\projects\CWMS-CAVI-Script-Training\model\watershed\Lil_Sand_Berry\hms\LRH_Little_Sandy.dss
                        Unit:    5;  DSS Versions - Software: 6-YN, File: 6-YN,  Library 7-HK
-    -----DSS---ZOPEN:  Existing File Opened,  File: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\Lil_Sand_Berry\hms\LSR_Winter.dss
+    -----DSS---ZOPEN:  Existing File Opened,  File: C:\Users\u4rs9jsg\projects\CWMS-CAVI-Script-Training\model\watershed\Lil_Sand_Berry\hms\LSR_Winter.dss
                        Unit:    6;  DSS Versions - Software: 6-YN, File: 6-YN,  Library 7-HK
-    -----DSS---zclose6 Unit:    3,   File: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\Lil_
+    -----DSS---zclose6 Unit:    3,   File: C:\Users\u4rs9jsg\projects\CWMS-CAVI-Script-Training\model\water
                Pointer Utilization:  0.00
                Number of Records:      0
                File Size:     25.6  Kbytes
                Percent Inactive:   0.0
                Number of Reads:        2
-    -----DSS---zclose6 Unit:    4,   File: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\Lil_
+    -----DSS---zclose6 Unit:    4,   File: C:\Users\u4rs9jsg\projects\CWMS-CAVI-Script-Training\model\water
                Pointer Utilization:  0.00
                Number of Records:      0
                File Size:     25.6  Kbytes
                Percent Inactive:   0.0
                Number of Reads:        2
-    -----DSS---zclose6 Unit:    5,   File: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\Lil_
+    -----DSS---zclose6 Unit:    5,   File: C:\Users\u4rs9jsg\projects\CWMS-CAVI-Script-Training\model\water
                Pointer Utilization:  0.25
                Number of Records:    124
                File Size:    793.8  Kbytes
                Percent Inactive:   0.0
                Number of Reads:        2
-    -----DSS---zclose6 Unit:    6,   File: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\Lil_
+    -----DSS---zclose6 Unit:    6,   File: C:\Users\u4rs9jsg\projects\CWMS-CAVI-Script-Training\model\water
                Pointer Utilization:  0.00
                Number of Records:      0
                File Size:     25.6  Kbytes

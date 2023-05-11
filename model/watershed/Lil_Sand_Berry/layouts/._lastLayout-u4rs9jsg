@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<BrowserFrame width="1936" height="1056" positionX="-8" positionY="-8" childWindowCount="4" selectedTabIndex="2">
-  <horizontalDivider location="838" />
+<BrowserFrame width="1936" height="1056" positionX="1912" positionY="-8" childWindowCount="4" selectedTabIndex="2">
+  <horizontalDivider location="712" />
   <verticalDivider location="381" />
   <statusLine visible="true" />
   <messageArea visible="true" />
@@ -41,7 +41,7 @@
     </FolderNode>
   </ProjectTree>
   <ProjectTreeSelections SelectedPath0="root, Lil_Sand_Berry, Models, Scripting, Post Process (S)" />
-  <ChildWindow0 class="hec2.rts.map.RtsMapSchematic" title="Visualization" width="1524" height="835" positionX="0" positionY="0" maximized="true" iconized="false" selected="false" layer="0" ManagerCount="1" MapMouseAdapter="com.rma.map.RmaPointerMouseAdapter" MapCount="3" DrawGrids="false" Background="white" Type="2">
+  <ChildWindow0 class="hec2.rts.map.RtsMapSchematic" title="Visualization" width="1524" height="709" positionX="0" positionY="0" maximized="true" iconized="false" selected="false" layer="0" ManagerCount="1" MapMouseAdapter="com.rma.map.RmaPointerMouseAdapter" MapCount="3" DrawGrids="false" Background="white" Type="2">
     <Manager0 ManagerName="Time Series Icons" ManagerClass="hec.iconlocationset.model.IconLocationSet" MapIndex="3" IsDependantManager="false" Visible="true" />
     <Map0 MapPath="maps/LSR_watershed.shp" Visible="true" MapIndex="0" />
     <Map1 MapPath="maps/LSAStreamAlignment.shp" Visible="true" MapIndex="1" />
@@ -50,7 +50,7 @@
       <WorldPt n="5830600.6455" e="3705258.113" />
     </ViewRect>
   </ChildWindow0>
-  <ChildWindow1 class="hec2.rts.map.RtsMapSchematic" title="Acquisition" width="1524" height="835" positionX="0" positionY="0" maximized="true" iconized="false" selected="false" layer="0" ManagerCount="1" MapMouseAdapter="com.rma.map.RmaPointerMouseAdapter" MapCount="3" DrawGrids="false" Background="white" Type="1">
+  <ChildWindow1 class="hec2.rts.map.RtsMapSchematic" title="Acquisition" width="1524" height="709" positionX="0" positionY="0" maximized="true" iconized="false" selected="false" layer="0" ManagerCount="1" MapMouseAdapter="com.rma.map.RmaPointerMouseAdapter" MapCount="3" DrawGrids="false" Background="white" Type="1">
     <Manager0 ManagerName="Time Series Icons" ManagerClass="hec.iconlocationset.model.IconLocationSet" MapIndex="3" IsDependantManager="false" Visible="true" />
     <Map0 MapPath="maps/LSR_watershed.shp" Visible="true" MapIndex="0" />
     <Map1 MapPath="maps/LSAStreamAlignment.shp" Visible="true" MapIndex="1" />
@@ -59,21 +59,21 @@
       <WorldPt n="5830600.6455" e="3705258.113" />
     </ViewRect>
   </ChildWindow1>
-  <ChildWindow2 class="hec2.rts.map.RtsMapSchematic" title="Setup " width="1524" height="835" positionX="0" positionY="0" maximized="true" iconized="false" selected="false" layer="0" ManagerCount="1" MapMouseAdapter="com.rma.map.RmaPointerMouseAdapter" MapCount="3" DrawGrids="false" Background="white" Type="4">
+  <ChildWindow2 class="hec2.rts.map.RtsMapSchematic" title="Setup " width="1524" height="709" positionX="0" positionY="0" maximized="true" iconized="false" selected="false" layer="0" ManagerCount="1" MapMouseAdapter="com.rma.map.RmaPointerMouseAdapter" MapCount="3" DrawGrids="false" Background="white" Type="4">
     <Manager0 ManagerName="Time Series Icons" ManagerClass="hec.iconlocationset.model.IconLocationSet" MapIndex="3" IsDependantManager="false" Visible="true" />
     <Map0 MapPath="maps/LSR_watershed.shp" Visible="true" MapIndex="0" />
     <Map1 MapPath="maps/LSAStreamAlignment.shp" Visible="true" MapIndex="1" />
     <Map2 MapPath="maps/GraysonLake.shp" Visible="true" MapIndex="2" />
-    <ViewRect zoom="1.0">
+    <ViewRect zoom="0.9050452505656249">
       <WorldPt n="5830600.6455" e="3705258.113" />
     </ViewRect>
   </ChildWindow2>
-  <ChildWindow3 class="hec2.rts.map.RtsMapSchematic" title="Modeling" width="1524" height="835" positionX="0" positionY="0" maximized="true" iconized="false" selected="true" layer="0" MapMouseAdapter="com.rma.map.RmaPointerMouseAdapter" MapCount="3" DrawGrids="false" Background="white" Type="3">
+  <ChildWindow3 class="hec2.rts.map.RtsMapSchematic" title="Modeling" width="1524" height="709" positionX="0" positionY="0" maximized="true" iconized="false" selected="true" layer="0" MapMouseAdapter="com.rma.map.RmaPointerMouseAdapter" MapCount="3" DrawGrids="false" Background="white" Type="3">
     <Map0 MapPath="maps/LSR_watershed.shp" Visible="true" MapIndex="0" />
     <Map1 MapPath="maps/LSAStreamAlignment.shp" Visible="true" MapIndex="1" />
     <Map2 MapPath="maps/GraysonLake.shp" Visible="true" MapIndex="2" />
-    <ViewRect zoom="0.3002539218755435">
-      <WorldPt n="5807319.118405625" e="3706020.4223114136" />
+    <ViewRect zoom="0.8151579261249395">
+      <WorldPt n="5830600.6455" e="3705258.113" />
     </ViewRect>
   </ChildWindow3>
   <DataVisTab>

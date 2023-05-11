@@ -37,7 +37,7 @@
       <FolderNode Name="Simulation" Class="hec2.fia.simulation.nf.ui.SimulationContainerNode" Expanded="true" UserCreated="false" />
     </FolderNode>
   </ProjectTree>
-  <ChildWindow0 class="hec2.fia.client.FiaMapSchematic" title="Map Window    " width="0" height="0" positionX="5" positionY="5" maximized="false" iconized="false" selected="false" layer="0" ManagerCount="0" MapMouseAdapter="hec.map.MouseZoomAdapter" MapCount="0" DrawGrids="true" Background="white" AnalysisGroup="Default">
+  <ChildWindow0 class="hec2.fia.client.FiaMapSchematic" title="Map Window      " width="0" height="0" positionX="5" positionY="5" maximized="false" iconized="false" selected="false" layer="0" ManagerCount="0" MapMouseAdapter="hec.map.MouseZoomAdapter" MapCount="0" DrawGrids="true" Background="white" AnalysisGroup="Default">
     <ViewRect zoom="1.0">
       <WorldPt n="0.0" e="0.0" />
     </ViewRect>

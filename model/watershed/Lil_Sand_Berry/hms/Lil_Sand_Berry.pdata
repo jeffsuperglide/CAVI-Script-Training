@@ -3,6 +3,18 @@ Paired Data Manager: Lil_Sand_Berry
      Filepath Separator: \
 End:
 
+Table: Coldrate
+     Table Type: ATI-Cold Rate
+     Last Modified Date: 23 October 2019
+     Last Modified Time: 15:04:31
+     X-Units: DEGF-D
+     Y-Units: IN/DEG-D
+     Use External DSS File: NO
+     DSS File: Lil_Sand_Berry.dss
+     Pathname: //Coldrate/ATI-COLDRATE///TABLE/
+     Interpolation: Linear Interpolation
+End:
+
 Table: GraysonKY-Outlet
      Table Type: Distance-Elevation
      Last Modified Date: 23 October 2019
@@ -48,18 +60,6 @@ Table: Leon-GraysonKY
      Use External DSS File: NO
      DSS File: Lil_Sand_Berry.dss
      Pathname: //Leon-GraysonKY/DISTANCE-ELEVATION///TABLE/
-     Interpolation: Linear Interpolation
-End:
-
-Table: Coldrate
-     Table Type: ATI-Cold Rate
-     Last Modified Date: 23 October 2019
-     Last Modified Time: 15:04:31
-     X-Units: DEGF-D
-     Y-Units: IN/DEG-D
-     Use External DSS File: NO
-     DSS File: Lil_Sand_Berry.dss
-     Pathname: //Coldrate/ATI-COLDRATE///TABLE/
      Interpolation: Linear Interpolation
 End:
 
