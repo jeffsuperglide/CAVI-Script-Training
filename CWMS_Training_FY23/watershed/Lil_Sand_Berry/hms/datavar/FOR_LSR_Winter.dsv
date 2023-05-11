@@ -1,0 +1,36 @@
+Data Variant: FOR:LSR_Winter
+     Version: 4.2.1
+
+Data Source: QPE
+     Grid Type: Precipitation
+     DSS Pathname: /SHG/LSA/PRECIP/21SEP2018:2000/21SEP2018:2100/X0/
+     Link To Model: MFP-QPF_Winter
+     Link Name: QPE
+     Link Parameter: Precipitation
+     Use Link: Yes
+End Data Source: QPE
+
+Data Source: GraysonInflow
+     Gage Type: Flow
+     DSS Pathname: //GRAYSON-LAKE/FLOW/01FEB1999 - 01MAR2019/1HOUR/OBS/
+     Use Link: No
+End Data Source: GraysonInflow
+
+Data Source: GraysonOutflow
+     Gage Type: Flow
+     DSS Pathname: //GRAYSON-OUTFLOW/FLOW/01FEB1999 - 01MAR2019/1HOUR/OBS/
+     Use Link: No
+End Data Source: GraysonOutflow
+
+Data Source: Leon
+     Gage Type: Flow
+     DSS Pathname: //LEON/FLOW/01FEB1999 - 01MAR2019/1HOUR/OBS/
+     Use Link: No
+End Data Source: Leon
+
+Data Source: GraysonKY
+     Gage Type: Flow
+     DSS Pathname: //GRAYSONKY/FLOW/01FEB1999 - 01MAR2019/1HOUR/OBS/
+     Use Link: No
+End Data Source: GraysonKY
+End Data Variant: FOR:LSR_Winter

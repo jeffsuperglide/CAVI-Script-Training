@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transformations>
+  <PrecipitationTransformationList>
+    <TransformationSet Name="UNIFORM" Index="0">
+      <Description />
+      <Duration>1</Duration>
+      <Minimum24hrTime />
+      <Maximum24hrTime />
+      <IsAccumulative>true</IsAccumulative>
+    </TransformationSet>
+  </PrecipitationTransformationList>
+  <TemperatureTransformationList />
+</Transformations>
+

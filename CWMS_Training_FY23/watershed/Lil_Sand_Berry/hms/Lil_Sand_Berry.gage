@@ -1,0 +1,87 @@
+Gage Manager: Lil_Sand_Berry
+     Version: 4.8
+     Filepath Separator: \
+End:
+
+Gage: GraysonInflow
+     Last Modified Date: 14 October 2022
+     Last Modified Time: 22:34:45
+     Reference Height Units: Feet
+     Reference Height: 32.81
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Data Source Type: Modifiable DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 29 August 2019
+       Last Variant Modified Time: 19:17:42
+       Default Variant: Yes
+       DSS File Name: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LRH_Little_Sandy\hms\LRH_Little_Sandy.dss
+       DSS Pathname: //GRAYSON-LAKE/FLOW/01FEB1999 - 01MAR2019/1HOUR/OBS/
+       Start Time: 1 May 2010, 00:00
+       End Time: 10 May 2010, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: GraysonKY
+     Description: Gage at Town of Grayson
+     Last Modified Date: 14 October 2022
+     Last Modified Time: 22:34:45
+     Reference Height Units: Feet
+     Reference Height: 32.81
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Data Source Type: Modifiable DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 29 August 2019
+       Last Variant Modified Time: 19:17:42
+       Default Variant: Yes
+       DSS File Name: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LRH_Little_Sandy\hms\LRH_Little_Sandy.dss
+       DSS Pathname: //GRAYSONKY/FLOW/01FEB1999 - 01MAR2019/1HOUR/OBS/
+       Start Time: 1 January 2000, 00:00
+       End Time: 2 January 2000, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: GraysonOutflow
+     Last Modified Date: 14 October 2022
+     Last Modified Time: 22:34:45
+     Reference Height Units: Feet
+     Reference Height: 32.81
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Data Source Type: Modifiable DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 29 August 2019
+       Last Variant Modified Time: 19:17:42
+       Default Variant: Yes
+       DSS File Name: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LRH_Little_Sandy\hms\LRH_Little_Sandy.dss
+       DSS Pathname: //GRAYSON-OUTFLOW/FLOW/01FEB1999 - 01MAR2019/1HOUR/OBS/
+       Start Time: 1 January 2000, 00:00
+       End Time: 2 January 2000, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Leon
+     Description: Gage at Leon
+     Last Modified Date: 14 October 2022
+     Last Modified Time: 22:34:45
+     Reference Height Units: Feet
+     Reference Height: 32.81
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Data Source Type: Modifiable DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 29 August 2019
+       Last Variant Modified Time: 19:17:42
+       Default Variant: Yes
+       DSS File Name: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LRH_Little_Sandy\hms\LRH_Little_Sandy.dss
+       DSS Pathname: //LEON/FLOW/01FEB1999 - 01MAR2019/1HOUR/OBS/
+       Start Time: 1 January 2000, 00:00
+       End Time: 2 January 2000, 00:00
+     End Variant: Variant-1
+End:
+

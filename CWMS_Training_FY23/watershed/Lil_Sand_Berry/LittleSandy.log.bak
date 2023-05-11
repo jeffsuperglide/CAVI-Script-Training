@@ -1,0 +1,248 @@
+16Sep2022:11:29:44-INFO-u4rs9jsg-Added Manager Stream Alignment type com.rma.model.StreamAlignmentContainer
+16Sep2022:11:29:44-INFO-u4rs9jsg-Added Manager StreamAlignAliasMgr type hec2.model.StreamAlignAliasManager
+16Sep2022:11:29:44-INFO-u4rs9jsg-Added Manager Time Series Icons type hec.iconlocationset.model.IconLocationSet
+16Sep2022:11:29:46-INFO-u4rs9jsg-Created by u4rs9jsg
+16Sep2022:11:29:46-INFO-u4rs9jsg-Added Manager Program Order Manager type hec2.model.ProgramOrderManager
+16Sep2022:11:29:47-INFO-u4rs9jsg-Project Opened
+16Sep2022:11:29:48-INFO-u4rs9jsg-Added Manager Watershed Scripts Manager type hec2.rts.model.WatershedScriptMgr
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added Manager ModelAlternative Key Manager type hec2.rts.model.ModelAltKeyMgr
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added Manager DailyFcst type hec2.rts.model.ForecastRun
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added Manager Daily Run Metvue type hec2.rts.model.ForecastRun
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added Manager Full Natural type hec2.rts.model.ForecastRun
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added Manager Full natural with reduction calc type hec2.rts.model.ForecastRun
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added Manager Full Regulated type hec2.rts.model.ForecastRun
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added Manager Full_run_1 type hec2.rts.model.ForecastRun
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added Manager Reduction FIA only type hec2.rts.model.ForecastRun
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added Manager Reduction wMetvue type hec2.rts.model.ForecastRun
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added Manager Red_run_2 type hec2.rts.model.ForecastRun
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added Manager Gridded Precipitation type hec2.rts.plugins.java.impl.grid.model.GridSet
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added Manager HRRR_QPF type hec2.rts.plugins.java.impl.grid.model.GridSet
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added Manager WPC-QPF type hec2.rts.plugins.java.impl.grid.model.GridSet
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added map C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LittleSandy\maps\GraysonLake.shp
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added map C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LittleSandy\maps\LSAStreamAlignment.shp
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added map C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LittleSandy\maps\LSR_CL.shp
+16Sep2022:11:30:04-INFO-u4rs9jsg-Added map C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LittleSandy\maps\LSR_Gages_AHPS.shp
+16Sep2022:11:30:05-INFO-u4rs9jsg-Added map C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LittleSandy\maps\LSR_Gages_DCP.shp
+16Sep2022:11:30:05-INFO-u4rs9jsg-Added map C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LittleSandy\maps\LSR_Gages_USGS.shp
+16Sep2022:11:30:05-INFO-u4rs9jsg-Added map C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LittleSandy\maps\LSR_HMS_Routing.shp
+16Sep2022:11:30:05-INFO-u4rs9jsg-Added map C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LittleSandy\maps\LSR_watershed.shp
+16Sep2022:11:30:05-INFO-u4rs9jsg-Added map C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LittleSandy\maps\streetmaps.osm
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LRH_LittleSandy type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LRH_LittleSandy type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LRH_LittleSandy type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LRH_LittleSandy type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager QPF_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager QPF_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager Reductions type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager RoG_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager RoG_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager QPF_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager QPF_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager Reductions type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager RoG_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager RoG_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager QPF_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager QPF_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager Reductions type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager RoG_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager RoG_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager QPF_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager QPF_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager Reductions type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager RoG_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager RoG_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LSR_Reduction type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LSR_Snow type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LSR_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LSR_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LSR_Reduction type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LSR_Snow type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LSR_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LSR_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LSR_Reduction type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LSR_Snow type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LSR_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LSR_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LSR_Reduction type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LSR_Snow type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LSR_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager LSR_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager NormOps-M type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager NormOps-M type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager NormOps-MC type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:06-INFO-u4rs9jsg-Added Manager NormOps-MC type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager NormOpsSum type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager NormOpsSum type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager NormOpsWin type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager NormOpsWin type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager WPC_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager WPC_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager HRRR_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager HRRR_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager NormOps-M type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager NormOps-MC type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager NormOpsSum type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager NormOpsWin type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager WPC_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager HRRR_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager NormOps-M type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager NormOps-MC type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager NormOpsSum type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager NormOpsWin type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager WPC_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager HRRR_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager Reductions type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager Regulated type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager Natural type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager Reductions type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager Regulated type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager Natural type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager Reductions type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager Regulated type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager Natural type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager Reductions type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager Regulated type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:07-INFO-u4rs9jsg-Added Manager Natural type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:30:19-INFO-u4rs9jsg-Removed Map C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LittleSandy\maps\streetmaps.osm
+16Sep2022:11:31:49-INFO-u4rs9jsg-Added Manager Reductions type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:31:49-INFO-u4rs9jsg-Added Manager Regulated type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:31:49-INFO-u4rs9jsg-Added Manager Natural type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:31:49-INFO-u4rs9jsg-Added Manager Reductions type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:31:49-INFO-u4rs9jsg-Added Manager Regulated type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:31:49-INFO-u4rs9jsg-Added Manager Natural type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:31:49-INFO-u4rs9jsg-Added Manager Reductions type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:31:49-INFO-u4rs9jsg-Added Manager Regulated type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:31:49-INFO-u4rs9jsg-Added Manager Natural type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:31:49-INFO-u4rs9jsg-Added Manager Reductions type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:31:49-INFO-u4rs9jsg-Added Manager Regulated type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:31:49-INFO-u4rs9jsg-Added Manager Natural type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:36:34-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:36:34-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:36:46-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:36:46-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:36:47-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:36:47-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:36:48-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:36:48-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:36:52-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:36:52-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:36:53-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:36:53-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:36:59-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:36:59-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:36:59-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:11:36:59-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+16Sep2022:13:56:00-INFO-u4rs9jsg-Project Closed
+14Oct2022:09:30:00-INFO-u4rs9jsg-Project Opened
+14Oct2022:09:30:16-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+14Oct2022:09:30:16-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+14Oct2022:09:30:17-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+14Oct2022:09:30:17-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+14Oct2022:09:30:17-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:30:17-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:30:17-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:30:18-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:34-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:34-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:34-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:34-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:34-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:34-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:34-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:34-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:35-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:36-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:36-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:36-INFO-u4rs9jsg-Added Manager DatgAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:49-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:49-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:49-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:49-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:53-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:53-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:53-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:54-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:55-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:34:55-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:45:07-INFO-u4rs9jsg-Project Closed
+14Oct2022:09:47:21-INFO-u4rs9jsg-Project Opened
+14Oct2022:09:47:33-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:47:33-INFO-u4rs9jsg-Added Manager RoG_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:47:33-INFO-u4rs9jsg-Added Manager Reductions type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:47:33-INFO-u4rs9jsg-Added Manager Regulated type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:47:33-INFO-u4rs9jsg-Added Manager Natural type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:47:33-INFO-u4rs9jsg-Added Manager LSR_Reduction type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:47:33-INFO-u4rs9jsg-Added Manager LSR_Snow type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:47:33-INFO-u4rs9jsg-Added Manager LSR_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:47:33-INFO-u4rs9jsg-Added Manager LSR_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:47:33-INFO-u4rs9jsg-Added Manager LRH_LittleSandy type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:47:33-INFO-u4rs9jsg-Added Manager NormOps-M type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:47:33-INFO-u4rs9jsg-Added Manager NormOps-MC type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:47:33-INFO-u4rs9jsg-Added Manager NormOpsSum type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:47:33-INFO-u4rs9jsg-Added Manager NormOpsWin type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:47:33-INFO-u4rs9jsg-Added Manager WPC_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:47:33-INFO-u4rs9jsg-Added Manager HRRR_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:09:47:34-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+14Oct2022:09:47:34-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+14Oct2022:09:47:34-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+14Oct2022:09:47:35-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+14Oct2022:09:51:31-INFO-u4rs9jsg-Project Closed
+14Oct2022:10:14:15-INFO-u4rs9jsg-Project Opened
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager RoG_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager LSR_Reduction type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager Reductions type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager Regulated type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager Natural type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager LSR_Snow type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager LSR_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager LSR_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager RoG_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager Reductions type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager Regulated type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager Natural type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager LSR_Reduction type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager LSR_Snow type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager LSR_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager LSR_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager LRH_LittleSandy type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager NormOps-M type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager NormOps-MC type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager NormOpsSum type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager NormOpsWin type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager WPC_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager HRRR_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager NormOps-M type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager NormOps-MC type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager NormOpsSum type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:26-INFO-u4rs9jsg-Added Manager NormOpsWin type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:27-INFO-u4rs9jsg-Added Manager WPC_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:27-INFO-u4rs9jsg-Added Manager HRRR_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:27-INFO-u4rs9jsg-Added Manager LRH_LittleSandy type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:10:14:27-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+14Oct2022:10:14:28-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+14Oct2022:10:14:28-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+14Oct2022:10:14:28-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+14Oct2022:10:31:10-INFO-u4rs9jsg-Project Closed
+14Oct2022:14:39:19-INFO-u4rs9jsg-Project Opened
+14Oct2022:14:39:23-INFO-u4rs9jsg-Added Manager RoG_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:14:39:23-INFO-u4rs9jsg-Added Manager DataAcq type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:14:39:23-INFO-u4rs9jsg-Added Manager LSR_Reduction type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:14:39:23-INFO-u4rs9jsg-Added Manager LSR_Snow type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:14:39:23-INFO-u4rs9jsg-Added Manager LSR_Summer type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:14:39:23-INFO-u4rs9jsg-Added Manager LSR_Winter type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:14:39:23-INFO-u4rs9jsg-Added Manager Reductions type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:14:39:23-INFO-u4rs9jsg-Added Manager Regulated type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:14:39:23-INFO-u4rs9jsg-Added Manager Natural type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:14:39:23-INFO-u4rs9jsg-Added Manager NormOps-M type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:14:39:23-INFO-u4rs9jsg-Added Manager NormOps-MC type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:14:39:23-INFO-u4rs9jsg-Added Manager NormOpsSum type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:14:39:23-INFO-u4rs9jsg-Added Manager NormOpsWin type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:14:39:23-INFO-u4rs9jsg-Added Manager WPC_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:14:39:23-INFO-u4rs9jsg-Added Manager HRRR_QPF type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:14:39:23-INFO-u4rs9jsg-Added Manager LRH_LittleSandy type hec2.rts.plugin.model.ModelAlternativeManager
+14Oct2022:14:39:24-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+14Oct2022:14:39:24-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+14Oct2022:14:39:24-INFO-u4rs9jsg-setManagerOrder: TODO Implement me
+14Oct2022:14:39:25-INFO-u4rs9jsg-setManagerOrder: TODO Implement me

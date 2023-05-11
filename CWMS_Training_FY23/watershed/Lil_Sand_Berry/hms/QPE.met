@@ -1,0 +1,154 @@
+Meteorology: QPE
+     Last Modified Date: 19 June 2019
+     Last Modified Time: 15:25:36
+     Version: 4.8
+     Unit System: English
+     Set Missing Data to Default: Yes
+     Precipitation Method: Gridded Precipitation
+     Short-Wave Radiation Method: None
+     Long-Wave Radiation Method: None
+     Snowmelt Method: None
+     Evapotranspiration Method: Monthly Evaporation
+     Use Basin Model: Little_Sandy_Muskingum
+     Use Basin Model: Little_Sandy_Summer
+     Use Basin Model: Little_Sandy_Winter
+End:
+
+Precip Method Parameters: Gridded Precipitation
+     Last Modified Date: 29 August 2019
+     Last Modified Time: 20:34:44
+     Precip Grid Name: QPE
+End:
+
+Evapotranspiration Method Parameters: Monthly Evaporation
+     Last Modified Date: 28 February 2019
+     Last Modified Time: 22:58:07
+End:
+
+Subbasin: Outlet_loc
+     Last Modified Date: 3 January 2020
+     Last Modified Time: 15:04:05
+
+     Begin Et:
+     Pan Evaporation: 1.3
+     Pan Evaporation: 0.82
+     Pan Evaporation: 1.79
+     Pan Evaporation: 2.97
+     Pan Evaporation: 4.12
+     Pan Evaporation: 4.57
+     Pan Evaporation: 4.78
+     Pan Evaporation: 4.28
+     Pan Evaporation: 3.11
+     Pan Evaporation: 1.99
+     Pan Evaporation: 0.97
+     Pan Evaporation: 1.3
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     End Et:
+End:
+
+Subbasin: GraysonKY_loc
+     Last Modified Date: 3 January 2020
+     Last Modified Time: 15:04:12
+
+     Begin Et:
+     Pan Evaporation: 1.3
+     Pan Evaporation: 0.82
+     Pan Evaporation: 1.79
+     Pan Evaporation: 2.97
+     Pan Evaporation: 4.12
+     Pan Evaporation: 4.57
+     Pan Evaporation: 4.78
+     Pan Evaporation: 4.28
+     Pan Evaporation: 3.11
+     Pan Evaporation: 1.99
+     Pan Evaporation: 0.97
+     Pan Evaporation: 1.3
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     End Et:
+End:
+
+Subbasin: Leon_loc
+     Last Modified Date: 3 January 2020
+     Last Modified Time: 15:04:19
+
+     Begin Et:
+     Pan Evaporation: 1.3
+     Pan Evaporation: 0.82
+     Pan Evaporation: 1.79
+     Pan Evaporation: 2.97
+     Pan Evaporation: 4.12
+     Pan Evaporation: 4.57
+     Pan Evaporation: 4.78
+     Pan Evaporation: 4.28
+     Pan Evaporation: 3.11
+     Pan Evaporation: 1.99
+     Pan Evaporation: 0.97
+     Pan Evaporation: 1.3
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     End Et:
+End:
+
+Subbasin: Grayson_loc
+     Last Modified Date: 3 January 2020
+     Last Modified Time: 15:04:16
+
+     Begin Et:
+     Pan Evaporation: 1.3
+     Pan Evaporation: 0.82
+     Pan Evaporation: 1.79
+     Pan Evaporation: 2.97
+     Pan Evaporation: 4.12
+     Pan Evaporation: 4.57
+     Pan Evaporation: 4.78
+     Pan Evaporation: 4.28
+     Pan Evaporation: 3.11
+     Pan Evaporation: 1.99
+     Pan Evaporation: 0.97
+     Pan Evaporation: 1.3
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     End Et:
+End:

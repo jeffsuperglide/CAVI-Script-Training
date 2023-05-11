@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataexchange-configuration xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.hec.usace.army.mil/xmlSchema/cwms/dataexchangeconfiguration.xsd">
+  <datastore>
+    <oracle id="Oracle">
+      <host>//155.80.40.112</host>
+      <sid>H1CWMSP1</sid>
+    </oracle>
+  </datastore>
+  <datastore>
+    <model-plugin id="forecast-model-plugin" />
+  </datastore>
+  <datastore>
+    <dssfile id="forecast-dss" />
+  </datastore>
+  <ts-dataexchange-set exchange-data="true" id="NATURALS" sort-order="1.0">
+    <datastore-ref id="Oracle" oracle-ts-store-rule="Replace All" ts-override-protection="OFF" />
+    <datastore-ref id="forecast-model-plugin" />
+    <ts-mapping-set />
+    <ensemble />
+  </ts-dataexchange-set>
+  <ts-dataexchange-set exchange-data="true" id="NATURALS1" sort-order="1.0">
+    <datastore-ref id="Oracle" oracle-ts-store-rule="Replace All" ts-override-protection="OFF" />
+    <datastore-ref id="forecast-dss" />
+    <ts-mapping-set>
+      <ts-mapping>
+        <cwms-timeseries datastore-id="Oracle">GraysonKY.Flow.Inst.1Hour.0.NATURAL</cwms-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//GRAYSONKY/FLOW-UNREG/26Oct2019 - 01Nov2019/1HOUR/A0S0S0/</dss-timeseries>
+      </ts-mapping>
+    </ts-mapping-set>
+    <ensemble />
+  </ts-dataexchange-set>
+  <timewindow>
+    <starttime>SIMSTART+PT0M</starttime>
+    <endtime>FORECAST+PT0M</endtime>
+  </timewindow>
+</dataexchange-configuration>
+

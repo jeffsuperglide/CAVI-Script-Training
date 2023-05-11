@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProgramOrderManager ProgramOrderManagerName="Program Order Manager" Description="" ProgramOrderCount="1">
+  <ProgramOrder0 ProgramOrderName="Default" Description="Default Program Order" ProgramOrderItemCnt="4">
+    <ProgramOrderItem0 ProgramOrderName="MFP" Description="Precipitation" Index="1" StandardModel="true" InputPosition="-1" IconName="Images/grid17x17.gif" ShortName="MFP" />
+    <ProgramOrderItem1 ProgramOrderName="HMS" Description="Hydrologic" Index="2" StandardModel="true" InputPosition="-1" IconName="Images/hms18.gif" ShortName="HMS" />
+    <ProgramOrderItem2 ProgramOrderName="ResSim" Description="Reservoir Op." Index="3" StandardModel="true" InputPosition="-1" IconName="Images/rss18.gif" ShortName="RSS" />
+    <ProgramOrderItem3 ProgramOrderName="Scripting" Description="Scripting" Index="4" StandardModel="false" InputPosition="-1" IconName="Images/scripting.gif" ShortName="Scripting" />
+  </ProgramOrder0>
+</ProgramOrderManager>
+

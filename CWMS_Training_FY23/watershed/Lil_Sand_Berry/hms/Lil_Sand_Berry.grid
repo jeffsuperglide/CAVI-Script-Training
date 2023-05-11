@@ -1,0 +1,176 @@
+Grid Manager: Lil_Sand_Berry
+     Version: 4.8
+     Filepath Separator: \
+End:
+
+Grid: LSR_CC
+     Grid Type: Cold Content
+     Last Modified Date: 29 August 2019
+     Last Modified Time: 19:17:42
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Data Source Type: Modifiable DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 29 August 2019
+       Last Variant Modified Time: 19:17:42
+       Default Variant: Yes
+       DSS File Name: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LRH_Little_Sandy\hms\LRH_Little_Sandy.dss
+       DSS Pathname: /SHG/LITTLE SANDY RIVER/COLD CONTENT/01FEB2015:0600//SNODAS/
+     End Variant: Variant-1
+     Use Lookup Table: No
+End:
+
+Grid: LSR_CC_ATI
+     Grid Type: Cold Content ATI
+     Last Modified Date: 29 August 2019
+     Last Modified Time: 19:17:42
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Data Source Type: Modifiable DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 29 August 2019
+       Last Variant Modified Time: 19:17:42
+       Default Variant: Yes
+       DSS File Name: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LRH_Little_Sandy\hms\LRH_Little_Sandy.dss
+       DSS Pathname: /SHG/LITTLE SANDY RIVER/COLD CONTENT ATI/01FEB2015:0600//ZERO/
+     End Variant: Variant-1
+     Use Lookup Table: No
+End:
+
+Grid: LSR_Liquid
+     Grid Type: Liquid Water Content
+     Description: Liquid Water Content Grid
+     Last Modified Date: 29 August 2019
+     Last Modified Time: 19:17:42
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Data Source Type: Modifiable DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 29 August 2019
+       Last Variant Modified Time: 19:17:42
+       Default Variant: Yes
+       DSS File Name: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LRH_Little_Sandy\hms\LRH_Little_Sandy.dss
+       DSS Pathname: /SHG/LITTLE SANDY RIVER/LIQUID WATER/01FEB2015:0600//ZERO/
+     End Variant: Variant-1
+     Use Lookup Table: No
+End:
+
+Grid: LSR_Melt_ATI
+     Grid Type: Melt Rate ATI
+     Last Modified Date: 29 August 2019
+     Last Modified Time: 19:17:42
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Data Source Type: Modifiable DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 29 August 2019
+       Last Variant Modified Time: 19:17:42
+       Default Variant: Yes
+       DSS File Name: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LRH_Little_Sandy\hms\LRH_Little_Sandy.dss
+       DSS Pathname: /SHG/LITTLE SANDY RIVER/MELTRATE ATI/01FEB2015:0600//ZERO/
+     End Variant: Variant-1
+     Use Lookup Table: No
+End:
+
+Grid: QPE
+     Grid Type: Precipitation
+     Last Modified Date: 14 October 2022
+     Last Modified Time: 22:34:45
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Data Source Type: Modifiable DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 3 September 2021
+       Last Variant Modified Time: 15:28:03
+       Default Variant: Yes
+       DSS File Name: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LRH_Little_Sandy\hms\LRH_Little_Sandy.dss
+       DSS Pathname: /SHG/LSA/PRECIP/21SEP2018:2000/21SEP2018:2100/COMB/
+     End Variant: Variant-1
+     Use Lookup Table: No
+End:
+
+Grid: QPE Comb
+     Grid Type: Precipitation
+     Last Modified Date: 2 September 2021
+     Last Modified Time: 21:02:18
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Data Source Type: External DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 2 September 2021
+       Last Variant Modified Time: 21:02:18
+       Default Variant: Yes
+       DSS File Name: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LRH_Little_Sandy\hms\LRH_Little_Sandy.dss
+       DSS Pathname: /SHG/LSA/PRECIP/21SEP2018:2000/21SEP2018:2100/COMB/
+     End Variant: Variant-1
+     Use Lookup Table: No
+End:
+
+Grid: QPE MRMSV12 Pass2
+     Grid Type: Precipitation
+     Last Modified Date: 2 September 2021
+     Last Modified Time: 21:12:36
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Data Source Type: External DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 2 September 2021
+       Last Variant Modified Time: 21:12:36
+       Default Variant: Yes
+       DSS File Name: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LRH_Little_Sandy\hms\LRH_Little_Sandy.dss
+       DSS Pathname: /SHG/LITTLE SANDY RIVER/PRECIP/29AUG2021:1100/29AUG2021:1200/NCEP-MRMSV12-QPE-01H-PASS2/
+     End Variant: Variant-1
+     Use Lookup Table: No
+End:
+
+Grid: QPE_Snow
+     Grid Type: Precipitation
+     Last Modified Date: 13 January 2021
+     Last Modified Time: 20:22:09
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Data Source Type: Modifiable DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 13 January 2021
+       Last Variant Modified Time: 20:22:09
+       Default Variant: Yes
+       DSS File Name: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LRH_Little_Sandy\hms\LRH_Little_Sandy.dss
+       DSS Pathname: /SHG/OHRFC/PRECIP/01FEB2015:0000/01FEB2015:0100/STAGE3/
+     End Variant: Variant-1
+     Use Lookup Table: No
+End:
+
+Grid: LSR_SWE
+     Grid Type: Snow Water Equivalent
+     Last Modified Date: 29 August 2019
+     Last Modified Time: 19:17:42
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Data Source Type: Modifiable DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 29 August 2019
+       Last Variant Modified Time: 19:17:42
+       Default Variant: Yes
+       DSS File Name: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LRH_Little_Sandy\hms\LRH_Little_Sandy.dss
+       DSS Pathname: /SHG/LITTLE SANDY RIVER/SWE/01FEB2015:0600//SNODAS/
+     End Variant: Variant-1
+     Use Lookup Table: No
+End:
+
+Grid: LSR_Temp
+     Grid Type: Temperature
+     Last Modified Date: 29 August 2019
+     Last Modified Time: 19:17:42
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Data Source Type: Modifiable DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 29 August 2019
+       Last Variant Modified Time: 19:17:42
+       Default Variant: Yes
+       DSS File Name: C:\Users\u4rs9jsg\CWMS\models\CWMS\cwms-dev_3.2.3\watershed\LRH_Little_Sandy\hms\LRH_Little_Sandy.dss
+       DSS Pathname: /SHG/LITTLE SANDY RIVER/AIRTEMP/01FEB2015:0100//NDGD-RTMA/
+     End Variant: Variant-1
+     Use Lookup Table: No
+End:
+

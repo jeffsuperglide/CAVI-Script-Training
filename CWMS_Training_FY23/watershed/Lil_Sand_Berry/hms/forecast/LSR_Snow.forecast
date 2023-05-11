@@ -1,0 +1,85 @@
+Forecast Alternative: LSR_Snow
+     Description: 
+     Version: 4.8
+     Log File: LSR_Snow.log
+     DSS File: LSR_Snow.dss
+     Last Modified Date: 14 November 2022
+     Last Modified Time: 22:06:49
+
+     Basin Model Name: Little_Sandy_Winter
+     Met Model Name: QPE_Snow
+     Time Zone ID: America/Chicago
+     Start Date: 12 February 2015
+     Start Time: 06:00
+     Forecast Date: 17 March 2015
+     Forecast Time: 24:00
+     End Date: 20 March 2015
+     End Time: 06:00
+     Is Save Spatial Results: No
+     Time Interval: 60
+     Grid Write Interval: 60
+     Grid Write Time Shift: 0
+     Save State Type: None
+     Time-Series Output: Save All
+     Reservoir Release Option: Undefined
+     Loss Rate Zone Configuration Name: LSR_Subbasins
+     Transform Zone Configuration Name: LSR_Subbasins
+     Baseflow Zone Configuration Name: LSR_Subbasins
+     Routing Zone Configuration Name: LSR_Reaches
+
+     Initial Baseflow: GraysonKY_loc
+     Last Adjustment Modified Date: 29 July 2019
+     Last Adjustment Modified Time: 17:54:33
+     End Initial Baseflow: GraysonKY_loc
+
+     Initial Baseflow: Leon_loc
+     Last Adjustment Modified Date: 29 July 2019
+     Last Adjustment Modified Time: 17:54:33
+     End Initial Baseflow: Leon_loc
+
+     Initial Baseflow: Outlet_loc
+     Last Adjustment Modified Date: 29 July 2019
+     Last Adjustment Modified Time: 17:54:33
+     End Initial Baseflow: Outlet_loc
+
+     Initial Baseflow: Grayson_loc
+     Last Adjustment Modified Date: 29 July 2019
+     Last Adjustment Modified Time: 17:54:33
+     End Initial Baseflow: Grayson_loc
+
+     Blending Element: GraysonInflow
+     Method: None
+     Last Blend Modified Date: 29 July 2019
+     Last Blend Modified Time: 17:55:07
+     Enabled: No
+     End Blending Element: 
+
+     Blending Element: GraysonOutflow
+     Method: Linear Taper
+     Last Blend Modified Date: 29 July 2019
+     Last Blend Modified Time: 17:55:08
+     Blend Taper Duration: 6
+     Blend Percent Missing Flow: 2
+     Enabled: Yes
+     End Blending Element: 
+
+     Blending Element: Leon
+     Method: None
+     Last Blend Modified Date: 29 July 2019
+     Last Blend Modified Time: 17:55:07
+     Enabled: No
+     End Blending Element: 
+
+     Blending Element: GraysonKY
+     Method: None
+     Last Blend Modified Date: 29 July 2019
+     Last Blend Modified Time: 17:55:07
+     Enabled: No
+     End Blending Element: 
+
+     Simulation Variant: 
+     Data Variant Name: 
+     Input DSS File Name: 
+     Output F-Part: FOR:LSR_Snow
+     End Simulation Variant: 
+End Forecast Alternative: LSR_Snow

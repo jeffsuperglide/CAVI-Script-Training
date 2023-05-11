@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StreamAlignmentReachAliases>
+  <StreamAlignment>
+    Stream Alignment
+    <StreamReach>
+      0.0
+      <Alias>Little_Sandy</Alias>
+    </StreamReach>
+    <StreamReach>
+      OhioRiver
+      <Alias>Ohio</Alias>
+    </StreamReach>
+  </StreamAlignment>
+</StreamAlignmentReachAliases>
+

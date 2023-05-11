@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataexchange-configuration xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.hec.usace.army.mil/xmlSchema/cwms/dataexchangeconfiguration.xsd">
+  <datastore>
+    <model-plugin id="forecast-model-plugin" />
+  </datastore>
+  <datastore>
+    <dssfile id="DSS">
+      <filepath>../../database/data.dss</filepath>
+    </dssfile>
+  </datastore>
+  <datastore>
+    <dssfile id="forecast-dss" />
+  </datastore>
+  <ts-dataexchange-set id="15MinFlow" exchange-data="true" sort-order="1.0">
+    <datastore-ref id="DSS" />
+    <datastore-ref id="forecast-model-plugin" dss-regular-ts-store-rule="Replace All" dss-irregular-ts-store-rule="Merge" ts-override-protection="OFF" />
+    <ts-mapping-set />
+  </ts-dataexchange-set>
+  <ts-dataexchange-set id="15MinFlow1" exchange-data="true" sort-order="1.0">
+    <datastore-ref id="DSS" />
+    <datastore-ref id="forecast-dss" dss-regular-ts-store-rule="Replace All" dss-irregular-ts-store-rule="Merge" ts-override-protection="OFF" />
+    <ts-mapping-set>
+      <ts-mapping>
+        <dss-timeseries datastore-id="DSS">//GRAYSON-LAKE/FLOW/11Oct2022 - 15Oct2022/15Minute/OBS/</dss-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//GRAYSON-LAKE/FLOW/11Oct2022 - 15Oct2022/1HOUR/OBS/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <dss-timeseries datastore-id="DSS">//GRAYSON-OUTFLOW/FLOW/11Oct2022 - 15Oct2022/15Minute/OBS/</dss-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//GRAYSON-OUTFLOW/FLOW/11Oct2022 - 15Oct2022/1HOUR/OBS/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <dss-timeseries datastore-id="DSS">//GRAYSONKY/FLOW/14Oct2022 - 15Oct2022/15Minute/OBS/</dss-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//GRAYSONKY/FLOW/14Oct2022 - 15Oct2022/1HOUR/OBS/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <dss-timeseries datastore-id="DSS">//LEON/FLOW/14Oct2022 - 15Oct2022/15Minute/OBS/</dss-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//LEON/FLOW/14Oct2022 - 15Oct2022/1HOUR/OBS/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <dss-timeseries datastore-id="DSS">//LITTLE SANDY RIVER AT GRAYSON/FLOW/11Oct2022 - 17Oct2022/15Minute/OBS-USGS/</dss-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//LITTLE SANDY RIVER AT GRAYSON/FLOW/11Oct2022 - 17Oct2022/1HOUR/OBS/</dss-timeseries>
+      </ts-mapping>
+    </ts-mapping-set>
+  </ts-dataexchange-set>
+  <timewindow>
+    <starttime>EXTRACT-PT2H</starttime>
+    <endtime>FORECAST+PT2H</endtime>
+  </timewindow>
+</dataexchange-configuration>
+

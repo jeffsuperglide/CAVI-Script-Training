@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataexchange-configuration xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.hec.usace.army.mil/xmlSchema/cwms/dataexchangeconfiguration.xsd">
+  <datastore>
+    <model-plugin id="forecast-model-plugin" />
+  </datastore>
+  <datastore>
+    <dssfilemanager id="REMOTEDSS">
+      <filepath>$CWMS_HOME/forecast/LRD_Report/LSA_Report.dss</filepath>
+      <port>32101</port>
+      <host>155.80.40.111</host>
+    </dssfilemanager>
+  </datastore>
+  <datastore>
+    <dssfile id="forecast-dss" />
+  </datastore>
+  <ts-dataexchange-set id="LSA_Morning_Report" exchange-data="false" sort-order="2.0">
+    <datastore-ref id="REMOTEDSS" dss-regular-ts-store-rule="Replace All" dss-irregular-ts-store-rule="Merge" ts-override-protection="OFF" />
+    <datastore-ref id="forecast-model-plugin" />
+    <ts-mapping-set>
+      <ts-mapping>
+        <model-plugin-timeseries datastore-id="forecast-model-plugin">
+          <record>//GraysonLake-Pool/Elev//1HOUR/NormOps-MC/</record>
+          <location model-plugin-id="ResSim" model-alternative-id="NormOps-MC" location-id="GraysonLake-Pool" parameter-id="Elevation" />
+        </model-plugin-timeseries>
+        <dss-timeseries datastore-id="REMOTEDSS">//GraysonLake-Pool/Elev//1HOUR/LRHForecast/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <model-plugin-timeseries datastore-id="forecast-model-plugin">
+          <record>//GraysonOutflow/Flow//1HOUR/NormOps-MC/</record>
+          <location model-plugin-id="ResSim" model-alternative-id="NormOps-MC" location-id="GraysonOutflow" parameter-id="Flow" />
+        </model-plugin-timeseries>
+        <dss-timeseries datastore-id="REMOTEDSS">//GraysonOutflow/Flow//1HOUR/LRHForecast/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <model-plugin-timeseries datastore-id="forecast-model-plugin">
+          <record>//GraysonKY/Stage//1HOUR/NormOps-MC/</record>
+          <location model-plugin-id="ResSim" model-alternative-id="NormOps-MC" location-id="GraysonKY" parameter-id="Stage" />
+        </model-plugin-timeseries>
+        <dss-timeseries datastore-id="REMOTEDSS">//GraysonKY/Stage//1HOUR/LRHForecast/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <model-plugin-timeseries datastore-id="forecast-model-plugin">
+          <record>//GraysonKY/Flow//1HOUR/NormOps-MC/</record>
+          <location model-plugin-id="ResSim" model-alternative-id="NormOps-MC" location-id="GraysonKY" parameter-id="Flow" />
+        </model-plugin-timeseries>
+        <dss-timeseries datastore-id="REMOTEDSS">//GraysonKY/Flow//1HOUR/NormOps-MC/</dss-timeseries>
+      </ts-mapping>
+    </ts-mapping-set>
+    <override-version>$ForecastRunKey</override-version>
+    <ensemble />
+  </ts-dataexchange-set>
+  <ts-dataexchange-set id="LSA_Morning_Report1" exchange-data="false" sort-order="2.0">
+    <datastore-ref id="REMOTEDSS" dss-regular-ts-store-rule="Replace All" dss-irregular-ts-store-rule="Merge" ts-override-protection="OFF" />
+    <datastore-ref id="forecast-dss" />
+    <override-version>$ForecastRunKey</override-version>
+    <ts-mapping-set />
+    <ensemble />
+  </ts-dataexchange-set>
+  <timewindow>
+    <starttime>FORECAST+PT0M</starttime>
+    <endtime>SIMEND+PT0M</endtime>
+  </timewindow>
+</dataexchange-configuration>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastRunKeyMgr Name="ModelAlternative Key Manager">
+  <Description />
+  <Keys>
+    <ResSim>
+      <ModelAltKey>
+        <Name>NormOpsSum</Name>
+        <Key>S</Key>
+        <Program>ResSim</Program>
+      </ModelAltKey>
+    </ResSim>
+    <MFP>
+      <ModelAltKey>
+        <Name>RoG_Summer</Name>
+        <Key>S</Key>
+        <Program>MFP</Program>
+      </ModelAltKey>
+    </MFP>
+    <HMS>
+      <ModelAltKey>
+        <Name>LSR_Summer</Name>
+        <Key>S</Key>
+        <Program>HMS</Program>
+      </ModelAltKey>
+    </HMS>
+    <Scripting>
+      <ModelAltKey>
+        <Name>Post Process</Name>
+        <Key>S</Key>
+        <Program>Scripting</Program>
+      </ModelAltKey>
+    </Scripting>
+  </Keys>
+</ForecastRunKeyMgr>
+

@@ -1,0 +1,23 @@
+Alignment Name=Stream Alignment
+
+Description=
+ModifiedTime=0
+_nextLineIndex=0
+_nextNodeIndex=0
+_nextJuncIndex=0
+StreamAlignDrawPropBegin
+drawTicLabels=true
+drawTics=true
+showStreamName=true
+streamWidth=6
+ticLength=7
+majorTicLength=14
+streamColor=-32768
+nodeColor-16744448
+nodeOutlineColor-16760832
+drawNodestrue
+nodeWidth7
+junctionColor-16711936
+drawJunctionstrue
+junctionWidth12
+StreamAlignDrawPropEnd

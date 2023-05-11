@@ -1,0 +1,487 @@
+Basin: Little_Sandy_Muskingum
+     Description: Winter basin model with Muskingum routing for the Little Sandy River
+     Last Modified Date: 13 January 2021
+     Last Modified Time: 20:30:58
+     Version: 4.8
+     Filepath Separator: \
+     Unit System: English
+     Missing Flow To Zero: No
+     Enable Flow Ratio: No
+     Compute Local Flow At Junctions: Yes
+     Unregulated Output Required: No
+
+     Enable Sediment Routing: No
+
+     Enable Quality Routing: No
+End:
+
+Subbasin: Grayson_loc
+     Last Modified Date: 29 August 2019
+     Last Modified Time: 20:54:02
+     Canvas X: 3665936.8004647493
+     Canvas Y: 5721869.425787552
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 195.98
+     Downstream: GraysonInflow
+
+     Discretization: File-Specified
+     File: regions\Little_Sandy.mod
+
+     Canopy: Simple
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: Simple
+     Initial Canopy Storage Percent: 0
+     Canopy Storage Capacity: 0
+     Crop Coefficient: 1.0
+     End Canopy:
+
+     Surface: None
+
+     LossRate: Deficit Constant
+     Percent Impervious Area: 0.86995
+     Initial Deficit: 0.61
+     Maximum Deficit: 3
+     Percolation Rate: 0.02
+     Recovery Factor: 1.0
+
+     Transform: Modified Clark
+     Time of Concentration: 8.33
+     Storage Coefficient: 7.3
+
+     Baseflow: Recession
+     Recession Factor: 0.68
+     Initial Flow/Area Ratio: 1.23
+     Threshold Flow to Peak Ratio: 0.1
+End:
+
+Junction: GraysonInflow
+     Last Modified Date: 19 June 2019
+     Last Modified Time: 14:49:34
+     Canvas X: 3675347.453629972
+     Canvas Y: 5760661.601073716
+     Computation Point: Yes
+     Observed Hydrograph Gage: GraysonInflow
+     Downstream: GraysonRted
+End:
+
+Reach: GraysonRted
+     Last Modified Date: 13 June 2019
+     Last Modified Time: 22:21:13
+     Canvas X: 3686926.1854906376
+     Canvas Y: 5802132.762159681
+     From Canvas X: 3675347.453629972
+     From Canvas Y: 5760661.601073716
+     Downstream: GraysonOutflow
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 10
+     Muskingum x: 0.1
+     Muskingum Steps: 10
+     Channel Loss: None
+End:
+
+Junction: GraysonOutflow
+     Description: Grayson Dam
+     Last Modified Date: 19 June 2019
+     Last Modified Time: 14:49:47
+     Canvas X: 3686926.1854906376
+     Canvas Y: 5802132.762159681
+     Label X: 16.0
+     Label Y: 16.0
+     Observed Hydrograph Gage: GraysonOutflow
+     Downstream: GraysonOutflow-Leon
+End:
+
+Reach: GraysonOutflow-Leon
+     Last Modified Date: 19 June 2019
+     Last Modified Time: 14:49:47
+     Canvas X: 3690239.5951075363
+     Canvas Y: 5813919.3560144855
+     From Canvas X: 3686926.1854906376
+     From Canvas Y: 5802132.762159681
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: Leon
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 2
+     Muskingum x: 0.1
+     Muskingum Steps: 2
+     Channel Loss: None
+End:
+
+Subbasin: Leon_loc
+     Last Modified Date: 29 August 2019
+     Last Modified Time: 20:54:02
+     Canvas X: 3660018.6635074727
+     Canvas Y: 5814750.141786948
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 59.311
+     Downstream: Leon
+
+     Discretization: File-Specified
+     File: regions\Little_Sandy.mod
+
+     Canopy: Simple
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: Simple
+     Initial Canopy Storage Percent: 0
+     Canopy Storage Capacity: 0
+     Crop Coefficient: 1.0
+     End Canopy:
+
+     Surface: None
+
+     LossRate: Deficit Constant
+     Percent Impervious Area: 0.93431
+     Initial Deficit: 0.5
+     Maximum Deficit: 3
+     Percolation Rate: 0.05
+     Recovery Factor: 1.0
+
+     Transform: Modified Clark
+     Time of Concentration: 9.33
+     Storage Coefficient: 18.7
+
+     Baseflow: Recession
+     Recession Factor: 0.75
+     Initial Flow/Area Ratio: 0.92
+     Threshold Flow to Peak Ratio: 0.07
+End:
+
+Junction: Leon
+     Description: Leon
+     Last Modified Date: 19 June 2019
+     Last Modified Time: 14:49:34
+     Canvas X: 3690239.5951075363
+     Canvas Y: 5813919.3560144855
+     Label X: 16.0
+     Label Y: 16.0
+     Computation Point: Yes
+     Observed Hydrograph Gage: Leon
+     Downstream: Leon-GraysonKY
+End:
+
+Reach: Leon-GraysonKY
+     Last Modified Date: 17 June 2019
+     Last Modified Time: 14:42:47
+     Canvas X: 3698775.2986133173
+     Canvas Y: 5831360.851614911
+     From Canvas X: 3690239.5951075363
+     From Canvas Y: 5813919.3560144855
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: GraysonKY
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 5
+     Muskingum x: 0
+     Muskingum Steps: 5
+     Channel Loss: Constant
+     Channel Loss Flow Rate: 0
+     Channel Loss Fraction: 0.1
+     End Channel Loss:
+End:
+
+Subbasin: GraysonKY_loc
+     Last Modified Date: 29 August 2019
+     Last Modified Time: 20:54:02
+     Canvas X: 3708274.1543263
+     Canvas Y: 5760468.391830499
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 144.99
+     Downstream: GraysonKY
+
+     Discretization: File-Specified
+     File: regions\Little_Sandy.mod
+
+     Canopy: Simple
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: Simple
+     Initial Canopy Storage Percent: 0
+     Canopy Storage Capacity: 0
+     Crop Coefficient: 1.0
+     End Canopy:
+
+     Surface: None
+
+     LossRate: Deficit Constant
+     Percent Impervious Area: 1.1511
+     Initial Deficit: 0.42
+     Maximum Deficit: 3
+     Percolation Rate: 0.04
+     Recovery Factor: 1.0
+
+     Transform: Modified Clark
+     Time of Concentration: 19.67
+     Storage Coefficient: 15.7
+
+     Baseflow: Recession
+     Recession Factor: 0.86
+     Initial Flow/Area Ratio: 1.11
+     Threshold Flow to Peak Ratio: 0.09
+End:
+
+Junction: GraysonKY
+     Description: GraysonKY
+     Last Modified Date: 19 June 2019
+     Last Modified Time: 14:49:34
+     Canvas X: 3698775.2986133173
+     Canvas Y: 5831360.851614911
+     Label X: 16.0
+     Label Y: 16.0
+     Computation Point: Yes
+     Observed Hydrograph Gage: GraysonKY
+     Downstream: GraysonKY-Outlet
+End:
+
+Reach: GraysonKY-Outlet
+     Last Modified Date: 13 June 2019
+     Last Modified Time: 22:21:13
+     Canvas X: 3714032.680828154
+     Canvas Y: 5926816.861161828
+     From Canvas X: 3698775.2986133173
+     From Canvas Y: 5831360.851614911
+     Label X: 16.0
+     Label Y: 16.0
+     Downstream: Outlet
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 20
+     Muskingum x: 0.1
+     Muskingum Steps: 20
+     Channel Loss: None
+End:
+
+Subbasin: Outlet_loc
+     Last Modified Date: 29 August 2019
+     Last Modified Time: 20:54:02
+     Canvas X: 3752150.736153573
+     Canvas Y: 5870936.61006166
+     Label X: 16.0
+     Label Y: 16.0
+     Area: 323.97
+     Downstream: Outlet
+
+     Discretization: File-Specified
+     File: regions\Little_Sandy.mod
+
+     Canopy: Simple
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: Simple
+     Initial Canopy Storage Percent: 0
+     Canopy Storage Capacity: 0
+     Crop Coefficient: 1.0
+     End Canopy:
+
+     Surface: None
+
+     LossRate: Deficit Constant
+     Percent Impervious Area: 2.4948
+     Initial Deficit: 0.704
+     Maximum Deficit: 3
+     Percolation Rate: 0.045
+     Recovery Factor: 1.0
+
+     Transform: Modified Clark
+     Time of Concentration: 45.106
+     Storage Coefficient: 15.943
+
+     Baseflow: Recession
+     Recession Factor: 0.808
+     Initial Flow/Area Ratio: 0.844
+     Threshold Flow to Peak Ratio: 0.08
+End:
+
+Sink: Outlet
+     Description: Outlet
+     Last Modified Date: 27 February 2019
+     Last Modified Time: 23:14:48
+     Canvas X: 3714032.680828154
+     Canvas Y: 5926816.861161828
+     Label X: 16.0
+     Label Y: 16.0
+End:
+
+Basin Layer Properties:
+     Element Layer:
+          Name: Icons
+          Layer shown: Yes
+     End Layer:
+     Map Layer:
+          Filename: maps\Little_Sandy_Subbasin.shp
+          Layer:0
+          Display name: Little_Sandy_Subbasin
+          Minimum Scale: Undefined
+          Maximum Scale: 2147483647
+          Layer shown: No
+     End Layer:
+     Map Layer:
+          Filename: maps\Little_Sandy_Reach.shp
+          Layer:0
+          Display name: Little_Sandy_Reach
+          Minimum Scale: Undefined
+          Maximum Scale: 2147483647
+          Layer shown: No
+     End Layer:
+End:
+
+Basin Spatial Properties:
+     Coordinate System: PROJCS["NAD_1983_Albers",GEOGCS["NAD83",DATUM["North_American_Datum_1983",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6269"]],PRIMEM["Greenwich",0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers_Conic_Equal_Area"],PARAMETER["false_easting",0],PARAMETER["false_northing",0],PARAMETER["longitude_of_center",-96],PARAMETER["standard_parallel_1",29.5],PARAMETER["standard_parallel_2",45.5],PARAMETER["latitude_of_center",23],UNIT["US survey foot",0.304800609601219,AUTHORITY["EPSG","9003"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]
+End:
+
+Basin Schematic Properties:
+     Last View N: 5928002.2295259945
+     Last View S: 5701901.708302744
+     Last View W: 3612971.573239483
+     Last View E: 3781022.9192227377
+     Maximum View N: 5937064.232930542
+     Maximum View S: 5711622.054018838
+     Maximum View W: 3655412.059875168
+     Maximum View E: 3756757.3397858776
+     Extent Method: Elements Maps
+     Buffer: 10
+     Draw Icons: Yes
+     Draw Icon Labels: Name
+     Draw Map Objects: Yes
+     Draw Gridlines: Yes
+     Draw Flow Direction: No
+     Draw HillShade Layer: Yes
+     Draw Elevation Layer: Yes
+     Elevation Layer Color Palette: Default
+     Ignore Elevation Color Ramp Scale: No
+     Use Interpolated Color Ramp for Elevation Layer: Yes
+     Color Ramp Opacity Level for Elevation Layer: 33.0
+     Fix Element Locations: No
+     Fix Hydrologic Order: No
+     Map: hec.map.aishape.AiShapeMap
+     Map File Name: maps\Little_Sandy_Subbasin.shp
+     Minimum Scale: -2147483648
+     Maximum Scale: 2147483647
+     Map Shown: No
+     Map: hec.map.aishape.AiShapeMap
+     Map File Name: maps\Little_Sandy_Reach.shp
+     Minimum Scale: -2147483648
+     Maximum Scale: 2147483647
+     Map Shown: No
+End:
+
+Computation Point: GraysonInflow
+     Parameter Set: 1
+     End Parameter Set:
+     Parameter Set: 2
+     End Parameter Set:
+     Parameter Set: 3
+     End Parameter Set:
+     Parameter Set: 4
+     End Parameter Set:
+     Parameter Set: 5
+     End Parameter Set:
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+End Computation Point: 
+
+Computation Point: Leon
+     Parameter Set: 1
+     End Parameter Set:
+     Parameter Set: 2
+     End Parameter Set:
+     Parameter Set: 3
+     End Parameter Set:
+     Parameter Set: 4
+     End Parameter Set:
+     Parameter Set: 5
+     End Parameter Set:
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+End Computation Point: 
+
+Computation Point: GraysonKY
+     Parameter Set: 1
+     End Parameter Set:
+     Parameter Set: 2
+     End Parameter Set:
+     Parameter Set: 3
+     End Parameter Set:
+     Parameter Set: 4
+     End Parameter Set:
+     Parameter Set: 5
+     End Parameter Set:
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+     Graph Definition: 
+     End Graph Definition: 
+
+End Computation Point: 
+
+Zone Configuration: LSR_Reaches
+     Description: 
+     Element Type: Reach
+
+     Zone: LSR_Reaches
+     Zone Description: 
+     Element Name: GraysonRted
+     Element Name: Leon-GraysonKY
+     Element Name: GraysonOutflow-Leon
+     Element Name: GraysonKY-Outlet
+     End Zone: 
+End Zone Configuration: 
+
+Zone Configuration: LSR_Subbasins
+     Description: 
+     Element Type: Subbasin
+
+     Zone: LSR_Subbasins
+     Zone Description: 
+     Element Name: Grayson_loc
+     Element Name: Leon_loc
+     Element Name: GraysonKY_loc
+     Element Name: Outlet_loc
+     End Zone: 
+End Zone Configuration: 

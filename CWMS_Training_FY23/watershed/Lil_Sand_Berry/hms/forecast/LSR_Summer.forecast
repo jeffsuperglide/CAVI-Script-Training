@@ -1,0 +1,476 @@
+Forecast Alternative: LSR_Summer
+     Description: 
+     Version: 4.8
+     Log File: LSR_Summer.log
+     DSS File: LRH_Little_Sandy.dss
+     Last Modified Date: 14 November 2022
+     Last Modified Time: 22:06:49
+
+     Basin Model Name: Little_Sandy_Summer
+     Met Model Name: QPE
+     Time Zone ID: America/Chicago
+     Start Date: 16 April 2022
+     Start Time: 24:00
+     Forecast Date: 28 April 2022
+     Forecast Time: 05:00
+     End Date: 5 May 2022
+     End Time: 05:00
+     Is Save Spatial Results: No
+     Time Interval: 60
+     Grid Write Interval: 60
+     Grid Write Time Shift: 0
+     Save State Type: None
+     Time-Series Output: Save All
+     Reservoir Release Option: Set missing to last valid value
+     Loss Rate Zone Configuration Name: LSR_Subbasins
+     Transform Zone Configuration Name: LSR_Subbasins
+     Baseflow Zone Configuration Name: LSR_Subbasins
+     Routing Zone Configuration Name: LSR_Reaches
+
+     Loss Rate Element Adjustment: Outlet_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 2 February 2022
+     Last Adjustment Modified Time: 14:36:00
+     Method Category: Loss Rate
+     Method: Deficit Constant
+     Parameter Name: Initial Deficit
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.5
+     End Loss Rate Element Adjustment: Outlet_loc
+
+     Loss Rate Element Adjustment: Leon_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 7 December 2021
+     Last Adjustment Modified Time: 14:11:32
+     Method Category: Loss Rate
+     Method: Deficit Constant
+     Parameter Name: Percolation Rate
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.02
+     End Loss Rate Element Adjustment: Leon_loc
+
+     Loss Rate Element Adjustment: GraysonKY_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 7 December 2021
+     Last Adjustment Modified Time: 14:06:33
+     Method Category: Loss Rate
+     Method: Deficit Constant
+     Parameter Name: Percolation Rate
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.03
+     End Loss Rate Element Adjustment: GraysonKY_loc
+
+     Loss Rate Element Adjustment: Grayson_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 2 February 2022
+     Last Adjustment Modified Time: 14:36:00
+     Method Category: Loss Rate
+     Method: Deficit Constant
+     Parameter Name: Initial Deficit
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.5
+     End Loss Rate Element Adjustment: Grayson_loc
+
+     Loss Rate Element Adjustment: Outlet_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 7 December 2021
+     Last Adjustment Modified Time: 14:06:33
+     Method Category: Loss Rate
+     Method: Deficit Constant
+     Parameter Name: Percolation Rate
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.03
+     End Loss Rate Element Adjustment: Outlet_loc
+
+     Loss Rate Element Adjustment: Grayson_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 2 February 2022
+     Last Adjustment Modified Time: 14:36:00
+     Method Category: Loss Rate
+     Method: Deficit Constant
+     Parameter Name: Maximum Deficit
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.7
+     End Loss Rate Element Adjustment: Grayson_loc
+
+     Loss Rate Element Adjustment: GraysonKY_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 2 February 2022
+     Last Adjustment Modified Time: 14:36:00
+     Method Category: Loss Rate
+     Method: Deficit Constant
+     Parameter Name: Maximum Deficit
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.7
+     End Loss Rate Element Adjustment: GraysonKY_loc
+
+     Loss Rate Element Adjustment: Leon_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 2 February 2022
+     Last Adjustment Modified Time: 14:36:00
+     Method Category: Loss Rate
+     Method: Deficit Constant
+     Parameter Name: Initial Deficit
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.5
+     End Loss Rate Element Adjustment: Leon_loc
+
+     Loss Rate Element Adjustment: Leon_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 2 February 2022
+     Last Adjustment Modified Time: 14:36:00
+     Method Category: Loss Rate
+     Method: Deficit Constant
+     Parameter Name: Maximum Deficit
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.7
+     End Loss Rate Element Adjustment: Leon_loc
+
+     Loss Rate Element Adjustment: Grayson_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 7 December 2021
+     Last Adjustment Modified Time: 14:06:33
+     Method Category: Loss Rate
+     Method: Deficit Constant
+     Parameter Name: Percolation Rate
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.03
+     End Loss Rate Element Adjustment: Grayson_loc
+
+     Loss Rate Element Adjustment: GraysonKY_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 2 February 2022
+     Last Adjustment Modified Time: 14:36:00
+     Method Category: Loss Rate
+     Method: Deficit Constant
+     Parameter Name: Initial Deficit
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.5
+     End Loss Rate Element Adjustment: GraysonKY_loc
+
+     Loss Rate Element Adjustment: Outlet_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 2 February 2022
+     Last Adjustment Modified Time: 14:36:00
+     Method Category: Loss Rate
+     Method: Deficit Constant
+     Parameter Name: Maximum Deficit
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.7
+     End Loss Rate Element Adjustment: Outlet_loc
+
+     Transform Element Adjustment: GraysonKY_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 7 December 2021
+     Last Adjustment Modified Time: 14:12:12
+     Method Category: Transform
+     Method: Modified Clark
+     Parameter Name: Time of Concentration
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 14
+     End Transform Element Adjustment: GraysonKY_loc
+
+     Transform Element Adjustment: Outlet_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 3 January 2020
+     Last Adjustment Modified Time: 14:24:49
+     Method Category: Transform
+     Method: Modified Clark
+     Parameter Name: Time of Concentration
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 43.106
+     End Transform Element Adjustment: Outlet_loc
+
+     Transform Element Adjustment: Outlet_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 3 January 2020
+     Last Adjustment Modified Time: 14:24:49
+     Method Category: Transform
+     Method: Modified Clark
+     Parameter Name: Storage Coefficient
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 15.943
+     End Transform Element Adjustment: Outlet_loc
+
+     Transform Element Adjustment: Leon_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 7 December 2021
+     Last Adjustment Modified Time: 14:11:09
+     Method Category: Transform
+     Method: Modified Clark
+     Parameter Name: Storage Coefficient
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 15
+     End Transform Element Adjustment: Leon_loc
+
+     Transform Element Adjustment: Grayson_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 3 January 2020
+     Last Adjustment Modified Time: 14:24:48
+     Method Category: Transform
+     Method: Modified Clark
+     Parameter Name: Storage Coefficient
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 7
+     End Transform Element Adjustment: Grayson_loc
+
+     Transform Element Adjustment: Leon_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 6 January 2020
+     Last Adjustment Modified Time: 19:02:29
+     Method Category: Transform
+     Method: Modified Clark
+     Parameter Name: Time of Concentration
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 3
+     End Transform Element Adjustment: Leon_loc
+
+     Transform Element Adjustment: GraysonKY_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 3 January 2020
+     Last Adjustment Modified Time: 15:41:25
+     Method Category: Transform
+     Method: Modified Clark
+     Parameter Name: Storage Coefficient
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 16
+     End Transform Element Adjustment: GraysonKY_loc
+
+     Transform Element Adjustment: Grayson_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 7 December 2021
+     Last Adjustment Modified Time: 14:10:45
+     Method Category: Transform
+     Method: Modified Clark
+     Parameter Name: Time of Concentration
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 9
+     End Transform Element Adjustment: Grayson_loc
+
+     Baseflow Element Adjustment: Outlet_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 6 January 2020
+     Last Adjustment Modified Time: 18:49:09
+     Method Category: Baseflow
+     Method: Recession
+     Parameter Name: Recession Factor
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.998
+     End Baseflow Element Adjustment: Outlet_loc
+
+     Baseflow Element Adjustment: Leon_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 6 January 2020
+     Last Adjustment Modified Time: 18:59:41
+     Method Category: Baseflow
+     Method: Recession
+     Parameter Name: Threshold Flow to Peak Ratio
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.00
+     End Baseflow Element Adjustment: Leon_loc
+
+     Baseflow Element Adjustment: Grayson_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 14 January 2021
+     Last Adjustment Modified Time: 14:36:36
+     Method Category: Baseflow
+     Method: Recession
+     Parameter Name: Initial Flow/Area Ratio
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 1
+     End Baseflow Element Adjustment: Grayson_loc
+
+     Baseflow Element Adjustment: GraysonKY_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 3 January 2020
+     Last Adjustment Modified Time: 16:03:17
+     Method Category: Baseflow
+     Method: Recession
+     Parameter Name: Threshold Flow to Peak Ratio
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.05
+     End Baseflow Element Adjustment: GraysonKY_loc
+
+     Baseflow Element Adjustment: Outlet_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 14 January 2021
+     Last Adjustment Modified Time: 14:36:36
+     Method Category: Baseflow
+     Method: Recession
+     Parameter Name: Initial Flow/Area Ratio
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.5
+     End Baseflow Element Adjustment: Outlet_loc
+
+     Baseflow Element Adjustment: Outlet_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 3 January 2020
+     Last Adjustment Modified Time: 16:03:17
+     Method Category: Baseflow
+     Method: Recession
+     Parameter Name: Threshold Flow to Peak Ratio
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.069
+     End Baseflow Element Adjustment: Outlet_loc
+
+     Baseflow Element Adjustment: Grayson_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 2 February 2022
+     Last Adjustment Modified Time: 14:39:06
+     Method Category: Baseflow
+     Method: Recession
+     Parameter Name: Recession Factor
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.94
+     End Baseflow Element Adjustment: Grayson_loc
+
+     Baseflow Element Adjustment: Leon_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 14 January 2021
+     Last Adjustment Modified Time: 14:38:23
+     Method Category: Baseflow
+     Method: Recession
+     Parameter Name: Recession Factor
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.94
+     End Baseflow Element Adjustment: Leon_loc
+
+     Baseflow Element Adjustment: Leon_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 28 April 2022
+     Last Adjustment Modified Time: 13:49:51
+     Method Category: Baseflow
+     Method: Recession
+     Parameter Name: Initial Flow/Area Ratio
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 1
+     End Baseflow Element Adjustment: Leon_loc
+
+     Baseflow Element Adjustment: GraysonKY_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 14 January 2021
+     Last Adjustment Modified Time: 14:38:23
+     Method Category: Baseflow
+     Method: Recession
+     Parameter Name: Recession Factor
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.94
+     End Baseflow Element Adjustment: GraysonKY_loc
+
+     Baseflow Element Adjustment: Grayson_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 3 January 2020
+     Last Adjustment Modified Time: 16:03:16
+     Method Category: Baseflow
+     Method: Recession
+     Parameter Name: Threshold Flow to Peak Ratio
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 0.08
+     End Baseflow Element Adjustment: Grayson_loc
+
+     Baseflow Element Adjustment: GraysonKY_loc
+     Override Zone Adjustment: Yes
+     Last Adjustment Modified Date: 2 February 2022
+     Last Adjustment Modified Time: 14:36:00
+     Method Category: Baseflow
+     Method: Recession
+     Parameter Name: Initial Flow/Area Ratio
+     Instance Number: 0
+     Adjustment Type: Value
+     Value: 1.5
+     End Baseflow Element Adjustment: GraysonKY_loc
+
+     Initial Baseflow: GraysonKY_loc
+     Last Adjustment Modified Date: 19 June 2019
+     Last Adjustment Modified Time: 15:22:30
+     End Initial Baseflow: GraysonKY_loc
+
+     Initial Baseflow: Leon_loc
+     Last Adjustment Modified Date: 19 June 2019
+     Last Adjustment Modified Time: 15:22:30
+     End Initial Baseflow: Leon_loc
+
+     Initial Baseflow: Outlet_loc
+     Last Adjustment Modified Date: 19 June 2019
+     Last Adjustment Modified Time: 15:22:30
+     End Initial Baseflow: Outlet_loc
+
+     Initial Baseflow: Grayson_loc
+     Last Adjustment Modified Date: 14 January 2021
+     Last Adjustment Modified Time: 14:35:04
+     Flow Gage Name: GraysonInflow
+     End Initial Baseflow: Grayson_loc
+
+     Blending Element: GraysonInflow
+     Method: Linear Taper
+     Last Blend Modified Date: 3 January 2020
+     Last Blend Modified Time: 14:26:46
+     Blend Taper Duration: 24
+     Blend Percent Missing Flow: 10
+     Enabled: Yes
+     End Blending Element: 
+
+     Blending Element: GraysonOutflow
+     Method: Linear Taper
+     Last Blend Modified Date: 2 January 2020
+     Last Blend Modified Time: 13:20:20
+     Blend Taper Duration: 24
+     Blend Percent Missing Flow: 10
+     Enabled: Yes
+     End Blending Element: 
+
+     Blending Element: Leon
+     Method: Linear Taper
+     Last Blend Modified Date: 3 January 2020
+     Last Blend Modified Time: 14:26:46
+     Blend Taper Duration: 24
+     Blend Percent Missing Flow: 10
+     Enabled: Yes
+     End Blending Element: 
+
+     Blending Element: GraysonKY
+     Method: Linear Taper
+     Last Blend Modified Date: 3 January 2020
+     Last Blend Modified Time: 14:26:46
+     Blend Taper Duration: 24
+     Blend Percent Missing Flow: 10
+     Enabled: Yes
+     End Blending Element: 
+
+     Simulation Variant: 
+     Data Variant Name: 
+     Input DSS File Name: 
+     Output F-Part: FOR:LSR_Summer
+     End Simulation Variant: 
+End Forecast Alternative: LSR_Summer

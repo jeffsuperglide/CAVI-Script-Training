@@ -1,0 +1,48 @@
+Project: Lil_Sand_Berry
+     Description: CWMS Little Sandy River Basin
+     Version: 4.8
+     Filepath Separator: \
+     DSS File Name: Lil_Sand_Berry.dss
+     Time Zone ID: America/Chicago
+End:
+
+Precipitation: QPE
+     Filename: QPE.met
+     Description: 
+     Last Modified Date: 13 January 2021
+     Last Modified Time: 20:11
+End:
+
+Precipitation: QPE_Snow
+     Filename: QPE_Snow.met
+     Description: 
+     Last Modified Date: 13 January 2021
+     Last Modified Time: 20:22
+End:
+
+Basin: Little_Sandy_Muskingum
+     Filename: Little_Sandy_Muskingum.basin
+     Description: Winter basin model with Muskingum routing for the Little Sandy River
+     Last Modified Date: 13 January 2021
+     Last Modified Time: 20:30
+End:
+
+Basin: Little_Sandy_Summer
+     Filename: Little_Sandy_Summer.basin
+     Description: Summer basin model for the Little Sandy River
+     Last Modified Date: 4 April 2022
+     Last Modified Time: 17:02
+End:
+
+Basin: Little_Sandy_Winter
+     Filename: Little_Sandy_Winter.basin
+     Description: Winter basin model for the Little Sandy River
+     Last Modified Date: 4 March 2021
+     Last Modified Time: 21:51
+End:
+
+Control: Lookback
+     FileName: Lookback.control
+     Description: 
+End:
+

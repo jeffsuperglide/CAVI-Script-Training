@@ -1,0 +1,92 @@
+"""
+# First table is a summary of stats and their datetime if available
+# Headers
+#           Parameter   min         max         mean
+# Location  Stage (F)
+#           Stage (O)
+#           Flow (F)
+#           Flow (O)
+#           Elev (F)
+#           Elev (O)
+
+# Second table is the first location
+# Third table is the second location
+# Forth table is ...
+
+"""
+from string import Template
+from hec.heclib.dss import HecDss, DSSPathname
+from usace.cavi.script import CAVI
+from hec2.rts.ui.RtsTabType import FORECAST
+
+from hec.script.Constants import TRUE as true, FALSE as false
+
+location = ["GRAYSONKY", "LEON"]    # B part
+parameter = ["STAGE", "FLOW"]       # C part
+version = ["OBS"]                   # F part in addition to key
+
+def computeAlternative(currentAlternative, computeOptions):
+	"""
+	# Entry point into .py script
+	Parameters
+	----------
+	currentAlternative : hec2.rts.plugins.standalone.impl.scripting.model.ScriptingPluginAlt
+		Java Class
+	computeOptions : hec2.rts.model.ComputeOptions
+		Java Class
+	"""
+	# Check JavaDocs for additional methods
+	currentAlternative.addComputeMessage("**** Start program order script ****")
+	# Check JavaDocs for additional methods
+	fparts = computeOptions.getFparts()
+	fpart = computeOptions.getFullFpart()
+	# tz = computeOptions.getTimeZoneOffset()
+	dssfilename = computeOptions.getDssFilename()
+	# run_dir = computeOptions.getRunDirectory()
+	run_tw = computeOptions.getRunTimeWindow()
+
+	# Run code here resulting in an exit code or reference other methods
+	# exit_status = function() # OR
+	# exit_status = 1 or 0
+
+
+	exit_status = report(run_tw.getStartTime(), run_tw.getEndTime(), dssfilename, fparts)
+	# exit_status = 1
+
+	return exit_status
+
+def report(st, et, dssfile, fpart):
+    # open the file, catalog (condensed), create dictionary of wants
+    dss = HecDss.open(dssfile, st.dateAndTime(), et.dateAndTime())
+    cat = dss.getCondensedCatalog()
+    tsids = []
+    version.append(fpart)
+    for tsid in cat:
+        pathname = DSSPathname(tsid.toString())
+        print(pathname)
+        if pathname.bPart().upper() in location \
+            and pathname.cPart().upper() in parameter \
+                and pathname.fPart().upper() in version:
+                tsids.append(pathname)
+
+    for tsid in tsids:
+        print(tsid)
+    
+    if dss: dss.close()
+    pass
+
+# using this safe entry for testing
+if __name__ in ["main", "__main__"]:
+    rts_tab = CAVI.getCurrentModule()
+    if rts_tab.getMapType() != FORECAST:
+        print("CAVI Module is not \"Modeling\"")
+
+    forecast = rts_tab.getForecast()
+    active_forecast = rts_tab.getActiveForecastRun()
+    model_alternatives = active_forecast.getModelAlternatives()
+    run_tw = forecast.getRunTimeWindow()
+    dssfilename = forecast.getForecastDSSFilename()
+
+    keys = zip(map(active_forecast.getFPart, model_alternatives),model_alternatives)
+
+    report(run_tw.getStartTime(), run_tw.getEndTime(), dssfilename, str(keys[2][0]))

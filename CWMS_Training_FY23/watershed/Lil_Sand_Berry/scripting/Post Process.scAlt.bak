@@ -1,0 +1,18 @@
+AsciiSerializer=5
+{=hec2.rts.plugins.standalone.impl.scripting.model.ScriptingPluginAlt
+ID=0
+FLD=_index
+I=-2147483648
+FLD=_name
+STR=Post Process
+FLD=_description
+STR=
+FLD=_lastModifiedTime
+J=1668465369998
+FLD=_createdDate
+J=9223372036854775807
+FLD=_scriptFile
+STR=scripts/post_processing.py
+FLD=_debug
+Z=false
+}

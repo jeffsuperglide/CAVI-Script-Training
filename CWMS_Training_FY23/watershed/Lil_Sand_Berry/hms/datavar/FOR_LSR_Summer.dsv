@@ -1,0 +1,46 @@
+Data Variant: FOR:LSR_Summer
+     Version: 4.8
+
+Data Source: QPE
+     Grid Type: Precipitation
+     Last Modified Date: 14 October 2022
+     Last Modified Time: 22:34:45
+     DSS Pathname: /SHG/LSA/PRECIP/21SEP2018:2000/21SEP2018:2100/T0/
+     Link To Model: MFP-QPF_Summer
+     Link Name: QPE
+     Link Parameter: Precipitation
+     Use Link: Yes
+End Data Source: QPE
+
+Data Source: GraysonInflow
+     Gage Type: Flow
+     Last Modified Date: 14 October 2022
+     Last Modified Time: 22:34:45
+     DSS Pathname: //GRAYSON-LAKE/FLOW/01FEB1999 - 01MAR2019/1HOUR/OBS/
+     Use Link: No
+End Data Source: GraysonInflow
+
+Data Source: GraysonOutflow
+     Gage Type: Flow
+     Last Modified Date: 14 October 2022
+     Last Modified Time: 22:34:45
+     DSS Pathname: //GRAYSON-OUTFLOW/FLOW/01FEB1999 - 01MAR2019/1HOUR/OBS/
+     Use Link: No
+End Data Source: GraysonOutflow
+
+Data Source: Leon
+     Gage Type: Flow
+     Last Modified Date: 14 October 2022
+     Last Modified Time: 22:34:45
+     DSS Pathname: //LEON/FLOW/01FEB1999 - 01MAR2019/1HOUR/OBS/
+     Use Link: No
+End Data Source: Leon
+
+Data Source: GraysonKY
+     Gage Type: Flow
+     Last Modified Date: 14 October 2022
+     Last Modified Time: 22:34:45
+     DSS Pathname: //GRAYSONKY/FLOW/01FEB1999 - 01MAR2019/1HOUR/OBS/
+     Use Link: No
+End Data Source: GraysonKY
+End Data Variant: FOR:LSR_Summer

@@ -1,0 +1,278 @@
+Meteorology: QPE_Snow
+     Last Modified Date: 29 July 2019
+     Last Modified Time: 18:35:44
+     Version: 4.8
+     Unit System: English
+     Set Missing Data to Default: Yes
+     Precipitation Method: Gridded Precipitation
+     Short-Wave Radiation Method: None
+     Long-Wave Radiation Method: None
+     Snowmelt Method: Gridded Temperature Index
+     Evapotranspiration Method: Monthly Evaporation
+     Use Basin Model: Little_Sandy_Winter
+End:
+
+Precip Method Parameters: Gridded Precipitation
+     Last Modified Date: 29 August 2019
+     Last Modified Time: 20:35:04
+     Precip Grid Name: QPE_Snow
+End:
+
+Snow Method Parameters: Gridded Temperature Index
+     Last Modified Date: 29 August 2019
+     Last Modified Time: 20:35:09
+     Temperature Grid Name: LSR_Temp
+End:
+
+Evapotranspiration Method Parameters: Monthly Evaporation
+     Last Modified Date: 28 February 2019
+     Last Modified Time: 22:58:07
+End:
+
+Subbasin: Outlet_loc
+     Last Modified Date: 18 June 2019
+     Last Modified Time: 21:10:08
+     Relative Humidity Gage Name: --None--
+
+     Begin Snow:
+     Temperature Grid Name: LSR_Temp
+
+     Use Default Initial Values: No
+     Cold Content Grid Name: LSR_CC
+     Cold Content ATI Grid Name: LSR_CC_ATI
+     Liquid Water Grid Name: LSR_Liquid
+     Melt Rate ATI Grid Name: LSR_Melt_ATI
+     Snow Water Equivalent Grid Name: LSR_SWE
+
+     Base Temperature: 32
+     Snow vs Rain Temperature: 35
+     Dry Melt Rain Rate Limit: 0.25
+     Cold Content ATI Snow Rate Limit: 0.2
+     Cold Content ATI Decay Factor: 0.5
+     Melt Rate ATI Decay Factor: 0.98
+     Tree Line Elevation: 10000
+     Interception Capacity: 0.0
+     Liquid Water Holding Capacity: 3
+     Ground Melt Method: Fixed Value
+     Ground Melt Rate: 0
+     Dry Melt Rate Method: ATI Function
+     Wet Melt Method: Fixed Value
+     Rain Melt Rate: 0.18
+
+     Melt Rate ATI-Cold Rate Table Name: Coldrate
+     Melt Rate ATI-Melt Rate Table Name: Meltrate
+     End Snow:
+
+     Begin Et:
+     Pan Evaporation: 0.55
+     Pan Evaporation: 0.82
+     Pan Evaporation: 1.79
+     Pan Evaporation: 2.97
+     Pan Evaporation: 4.12
+     Pan Evaporation: 4.57
+     Pan Evaporation: 4.78
+     Pan Evaporation: 4.28
+     Pan Evaporation: 3.11
+     Pan Evaporation: 1.99
+     Pan Evaporation: 0.97
+     Pan Evaporation: 0.55
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     End Et:
+End:
+
+Subbasin: GraysonKY_loc
+     Last Modified Date: 18 June 2019
+     Last Modified Time: 21:09:58
+     Relative Humidity Gage Name: --None--
+
+     Begin Snow:
+     Temperature Grid Name: LSR_Temp
+
+     Use Default Initial Values: No
+     Cold Content Grid Name: LSR_CC
+     Cold Content ATI Grid Name: LSR_CC_ATI
+     Liquid Water Grid Name: LSR_Liquid
+     Melt Rate ATI Grid Name: LSR_Melt_ATI
+     Snow Water Equivalent Grid Name: LSR_SWE
+
+     Base Temperature: 32
+     Snow vs Rain Temperature: 35
+     Dry Melt Rain Rate Limit: 0.25
+     Cold Content ATI Snow Rate Limit: 0.2
+     Cold Content ATI Decay Factor: 0.5
+     Melt Rate ATI Decay Factor: 0.98
+     Tree Line Elevation: 10000
+     Interception Capacity: 0.0
+     Liquid Water Holding Capacity: 3
+     Ground Melt Method: Fixed Value
+     Ground Melt Rate: 0
+     Dry Melt Rate Method: ATI Function
+     Wet Melt Method: Fixed Value
+     Rain Melt Rate: 0.18
+
+     Melt Rate ATI-Cold Rate Table Name: Coldrate
+     Melt Rate ATI-Melt Rate Table Name: Meltrate
+     End Snow:
+
+     Begin Et:
+     Pan Evaporation: 0.55
+     Pan Evaporation: 0.82
+     Pan Evaporation: 1.79
+     Pan Evaporation: 2.97
+     Pan Evaporation: 4.12
+     Pan Evaporation: 4.57
+     Pan Evaporation: 4.78
+     Pan Evaporation: 4.28
+     Pan Evaporation: 3.11
+     Pan Evaporation: 1.99
+     Pan Evaporation: 0.97
+     Pan Evaporation: 0.55
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     End Et:
+End:
+
+Subbasin: Leon_loc
+     Last Modified Date: 18 June 2019
+     Last Modified Time: 21:10:04
+     Relative Humidity Gage Name: --None--
+
+     Begin Snow:
+     Temperature Grid Name: LSR_Temp
+
+     Use Default Initial Values: No
+     Cold Content Grid Name: LSR_CC
+     Cold Content ATI Grid Name: LSR_CC_ATI
+     Liquid Water Grid Name: LSR_Liquid
+     Melt Rate ATI Grid Name: LSR_Melt_ATI
+     Snow Water Equivalent Grid Name: LSR_SWE
+
+     Base Temperature: 32
+     Snow vs Rain Temperature: 35
+     Dry Melt Rain Rate Limit: 0.25
+     Cold Content ATI Snow Rate Limit: 0.2
+     Cold Content ATI Decay Factor: 0.5
+     Melt Rate ATI Decay Factor: 0.98
+     Tree Line Elevation: 10000
+     Interception Capacity: 0.0
+     Liquid Water Holding Capacity: 3
+     Ground Melt Method: Fixed Value
+     Ground Melt Rate: 0
+     Dry Melt Rate Method: ATI Function
+     Wet Melt Method: Fixed Value
+     Rain Melt Rate: 0.18
+
+     Melt Rate ATI-Cold Rate Table Name: Coldrate
+     Melt Rate ATI-Melt Rate Table Name: Meltrate
+     End Snow:
+
+     Begin Et:
+     Pan Evaporation: 0.55
+     Pan Evaporation: 0.82
+     Pan Evaporation: 1.79
+     Pan Evaporation: 2.97
+     Pan Evaporation: 4.12
+     Pan Evaporation: 4.57
+     Pan Evaporation: 4.78
+     Pan Evaporation: 4.28
+     Pan Evaporation: 3.11
+     Pan Evaporation: 1.99
+     Pan Evaporation: 0.97
+     Pan Evaporation: 0.55
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     End Et:
+End:
+
+Subbasin: Grayson_loc
+     Last Modified Date: 18 June 2019
+     Last Modified Time: 21:10:02
+     Relative Humidity Gage Name: --None--
+
+     Begin Snow:
+     Temperature Grid Name: LSR_Temp
+
+     Use Default Initial Values: No
+     Cold Content Grid Name: LSR_CC
+     Cold Content ATI Grid Name: LSR_CC_ATI
+     Liquid Water Grid Name: LSR_Liquid
+     Melt Rate ATI Grid Name: LSR_Melt_ATI
+     Snow Water Equivalent Grid Name: LSR_SWE
+
+     Base Temperature: 32
+     Snow vs Rain Temperature: 35
+     Dry Melt Rain Rate Limit: 0.25
+     Cold Content ATI Snow Rate Limit: 0.2
+     Cold Content ATI Decay Factor: 0.5
+     Melt Rate ATI Decay Factor: 0.98
+     Tree Line Elevation: 10000
+     Interception Capacity: 0.0
+     Liquid Water Holding Capacity: 3
+     Ground Melt Method: Fixed Value
+     Ground Melt Rate: 0
+     Dry Melt Rate Method: ATI Function
+     Wet Melt Method: Fixed Value
+     Rain Melt Rate: 0.18
+
+     Melt Rate ATI-Cold Rate Table Name: Coldrate
+     Melt Rate ATI-Melt Rate Table Name: Meltrate
+     End Snow:
+
+     Begin Et:
+     Pan Evaporation: 0.55
+     Pan Evaporation: 0.82
+     Pan Evaporation: 1.79
+     Pan Evaporation: 2.97
+     Pan Evaporation: 4.12
+     Pan Evaporation: 4.57
+     Pan Evaporation: 4.78
+     Pan Evaporation: 4.28
+     Pan Evaporation: 3.11
+     Pan Evaporation: 1.99
+     Pan Evaporation: 0.97
+     Pan Evaporation: 0.55
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     Evapotranspiration Coefficient: 1
+     End Et:
+End:

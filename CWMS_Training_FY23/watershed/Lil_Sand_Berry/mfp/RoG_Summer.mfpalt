@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfpAlternative Name="RoG_Summer">
+  <Description>
+    <desc cnt="0" value="NOAA QPE Observed with no forecasted rain over Little_Sandy_Summer HMS basin model" />
+  </Description>
+  <Version>3.1</Version>
+  <LastModifiedTime>1665785020544</LastModifiedTime>
+  <LastComputeTime>1636380241320</LastComputeTime>
+  <BufferTemperature>false</BufferTemperature>
+  <BasinModelName>Little_Sandy_Summer</BasinModelName>
+  <MetModelName>QPE</MetModelName>
+  <PrecipZoneConfigurationName>LSR_Subbasins</PrecipZoneConfigurationName>
+  <TemperatureZoneConfigurationName />
+  <TimeSpecification>
+    <IsRelativeTime>true</IsRelativeTime>
+    <TimeInterval number="1" increment="HOUR" />
+    <FuturePrecipitationDuration number="72" increment="HOUR" />
+  </TimeSpecification>
+  <ForecastPrecipType>MANUAL_ENTRY</ForecastPrecipType>
+  <ForecastPrecipGrid>
+    <DssFileName />
+    <DssPathname />
+  </ForecastPrecipGrid>
+  <ForecastMultiplier>1.0</ForecastMultiplier>
+  <ForecastIncrement>0.0</ForecastIncrement>
+  <PrecipitationTransformationSetName>UNIFORM</PrecipitationTransformationSetName>
+  <TemperatureTransformationSetName>None</TemperatureTransformationSetName>
+  <DataSourceGroup type="Observed Precip Grid" name="" parameter="Precipitation">
+    <DataSourceSpec priority="0">
+      <DssFileName>D:\CWMS 3.2 beta\watershed\LRH_Little_Sandy\hms\LRH_Little_Sandy.dss</DssFileName>
+      <IsGrid>true</IsGrid>
+      <Interval>60</Interval>
+      <DataLocation Name="" Class="hec2.model.DataLocation" DssPath="/SHG/LSA/PRECIP/21SEP2018:2000/21SEP2018:2100/COMB/" ComputeType="Computed" Parameter="Precipitation" OutOfDate="false" PrevModelIndex="0" />
+    </DataSourceSpec>
+  </DataSourceGroup>
+  <DataSourceGroup type="Forecast Precip Grid" name="" parameter="Precipitation" />
+  <PrecipSpecifier>
+    <ZoneName>LSR_Subbasins</ZoneName>
+    <AdjustmentFactor>1.0</AdjustmentFactor>
+    <PrecipValues>
+      <doubleArray Length="168" Step="10">
+        <D Range="0-9" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+        <D Range="10-19" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+        <D Range="20-29" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+        <D Range="30-39" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+        <D Range="40-49" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+        <D Range="50-59" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+        <D Range="60-69" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+        <D Range="70-79" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+        <D Range="80-89" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+        <D Range="90-99" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+        <D Range="100-109" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+        <D Range="110-119" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+        <D Range="120-129" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+        <D Range="130-139" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+        <D Range="140-149" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+        <D Range="150-159" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+        <D Range="160-168" Data="0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0" />
+      </doubleArray>
+    </PrecipValues>
+    <QPF>
+      <DssFileName />
+      <DssPathname />
+    </QPF>
+  </PrecipSpecifier>
+  <ObservedPrecipGrid>
+    <DssFileName>D:\CWMS 3.2 beta\watershed\LRH_Little_Sandy\hms\LRH_Little_Sandy.dss</DssFileName>
+    <DssPathname>/SHG/LSA/PRECIP/21SEP2018:2000/21SEP2018:2100/COMB/</DssPathname>
+  </ObservedPrecipGrid>
+  <ObsPrecipSpecifier>
+    <ZoneName>LSR_Subbasins</ZoneName>
+    <AdjustmentFactor>1.0</AdjustmentFactor>
+    <PrecipValues>
+      <doubleArray Length="0" Step="10" />
+    </PrecipValues>
+    <QPF>
+      <DssFileName />
+      <DssPathname />
+    </QPF>
+  </ObsPrecipSpecifier>
+  <missingDataOptions defaultPrecipFill="Leave Missing" defaultTempFill="Leave Missing" />
+</MfpAlternative>
+

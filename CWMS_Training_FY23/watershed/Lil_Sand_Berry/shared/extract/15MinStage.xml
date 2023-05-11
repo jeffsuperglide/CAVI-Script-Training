@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataexchange-configuration xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.hec.usace.army.mil/xmlSchema/cwms/dataexchangeconfiguration.xsd">
+  <datastore>
+    <model-plugin id="forecast-model-plugin" />
+  </datastore>
+  <datastore>
+    <dssfile id="DSS">
+      <filepath>../../database/data.dss</filepath>
+    </dssfile>
+  </datastore>
+  <datastore>
+    <dssfile id="forecast-dss" />
+  </datastore>
+  <ts-dataexchange-set id="15MinStage" exchange-data="true" sort-order="0.0">
+    <datastore-ref id="DSS" />
+    <datastore-ref id="forecast-model-plugin" dss-regular-ts-store-rule="Replace All" dss-irregular-ts-store-rule="Merge" ts-override-protection="OFF" />
+    <ts-mapping-set />
+  </ts-dataexchange-set>
+  <ts-dataexchange-set id="15MinStage1" exchange-data="true" sort-order="0.0">
+    <datastore-ref id="DSS" />
+    <datastore-ref id="forecast-dss" dss-regular-ts-store-rule="Replace All" dss-irregular-ts-store-rule="Merge" ts-override-protection="OFF" />
+    <ts-mapping-set>
+      <ts-mapping>
+        <dss-timeseries datastore-id="DSS">//ASHLAND/STAGE/14Oct2022 - 15Oct2022/15Minute/OBS/</dss-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//ASHLAND/STAGE/14Oct2022 - 15Oct2022/1HOUR/OBS/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <dss-timeseries datastore-id="DSS">//GRAYSON LAKE NEAR LEON/STAGE/11Oct2022 - 17Oct2022/30Minute/OBS-USGS/</dss-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//GRAYSON LAKE NEAR LEON/STAGE/11Oct2022 - 17Oct2022/1HOUR/OBS/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <dss-timeseries datastore-id="DSS">//GRAYSONKY/STAGE/14Oct2022 - 15Oct2022/15Minute/OBS/</dss-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//GRAYSONKY/STAGE/14Oct2022 - 15Oct2022/1HOUR/OBS/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <dss-timeseries datastore-id="DSS">//GREENUPLD-POOL/STAGE/14Oct2022 - 15Oct2022/15Minute/OBS/</dss-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//GREENUPLD-POOL/STAGE/14Oct2022 - 15Oct2022/1HOUR/OBS/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <dss-timeseries datastore-id="DSS">//GREENUPLD-TAILWATER/STAGE/14Oct2022 - 15Oct2022/15Minute/OBS/</dss-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//GREENUPLD-TAILWATER/STAGE/14Oct2022 - 15Oct2022/1HOUR/OBS/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <dss-timeseries datastore-id="DSS">//LEON/STAGE/14Oct2022 - 15Oct2022/15Minute/OBS/</dss-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//LEON/STAGE/14Oct2022 - 15Oct2022/1HOUR/OBS/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <dss-timeseries datastore-id="DSS">//LITTLE SANDY BLW GRAYSON DAM NR LEON/STAGE/11Oct2022 - 17Oct2022/15Minute/OBS-USGS/</dss-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//LITTLE SANDY BLW GRAYSON DAM NR LEON/STAGE/11Oct2022 - 17Oct2022/1HOUR/OBS/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <dss-timeseries datastore-id="DSS">//LITTLE SANDY RIVER AT GRAYSON/STAGE/11Oct2022 - 17Oct2022/15Minute/OBS-USGS/</dss-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//LITTLE SANDY RIVER AT GRAYSON/STAGE/11Oct2022 - 17Oct2022/1HOUR/OBS/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <dss-timeseries datastore-id="DSS">//OHIO RIVER AT GREENUP/STAGE/11Oct2022 - 17Oct2022/15Minute/OBS-USGS/</dss-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//OHIO RIVER AT GREENUP/STAGE/11Oct2022 - 17Oct2022/1HOUR/OBS/</dss-timeseries>
+      </ts-mapping>
+    </ts-mapping-set>
+  </ts-dataexchange-set>
+  <timewindow>
+    <starttime>EXTRACT-PT2H</starttime>
+    <endtime>FORECAST+PT2H</endtime>
+  </timewindow>
+</dataexchange-configuration>
+

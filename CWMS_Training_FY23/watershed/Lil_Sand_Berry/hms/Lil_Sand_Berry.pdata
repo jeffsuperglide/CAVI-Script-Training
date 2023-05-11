@@ -1,0 +1,77 @@
+Paired Data Manager: Lil_Sand_Berry
+     Version: 4.8
+     Filepath Separator: \
+End:
+
+Table: GraysonKY-Outlet
+     Table Type: Distance-Elevation
+     Last Modified Date: 23 October 2019
+     Last Modified Time: 15:04:31
+     X-Units: FT
+     Y-Units: FT
+     Use External DSS File: NO
+     DSS File: Lil_Sand_Berry.dss
+     Pathname: //GraysonKY-Outlet/DISTANCE-ELEVATION///TABLE/
+     Interpolation: Linear Interpolation
+End:
+
+Table: GraysonOutflow-Leon
+     Table Type: Distance-Elevation
+     Last Modified Date: 23 October 2019
+     Last Modified Time: 15:04:31
+     X-Units: FT
+     Y-Units: FT
+     Use External DSS File: NO
+     DSS File: Lil_Sand_Berry.dss
+     Pathname: //GraysonOutflow-Leon/DISTANCE-ELEVATION///TABLE/
+     Interpolation: Linear Interpolation
+End:
+
+Table: GraysonRted
+     Table Type: Distance-Elevation
+     Last Modified Date: 23 October 2019
+     Last Modified Time: 15:04:31
+     X-Units: FT
+     Y-Units: FT
+     Use External DSS File: NO
+     DSS File: Lil_Sand_Berry.dss
+     Pathname: //GraysonRted/DISTANCE-ELEVATION///TABLE/
+     Interpolation: Linear Interpolation
+End:
+
+Table: Leon-GraysonKY
+     Table Type: Distance-Elevation
+     Last Modified Date: 5 March 2021
+     Last Modified Time: 14:25:08
+     X-Units: FT
+     Y-Units: FT
+     Use External DSS File: NO
+     DSS File: Lil_Sand_Berry.dss
+     Pathname: //Leon-GraysonKY/DISTANCE-ELEVATION///TABLE/
+     Interpolation: Linear Interpolation
+End:
+
+Table: Coldrate
+     Table Type: ATI-Cold Rate
+     Last Modified Date: 23 October 2019
+     Last Modified Time: 15:04:31
+     X-Units: DEGF-D
+     Y-Units: IN/DEG-D
+     Use External DSS File: NO
+     DSS File: Lil_Sand_Berry.dss
+     Pathname: //Coldrate/ATI-COLDRATE///TABLE/
+     Interpolation: Linear Interpolation
+End:
+
+Table: Meltrate
+     Table Type: ATI-Melt Rate
+     Last Modified Date: 23 October 2019
+     Last Modified Time: 15:04:31
+     X-Units: DEGF-D
+     Y-Units: IN/DEG-D
+     Use External DSS File: NO
+     DSS File: Lil_Sand_Berry.dss
+     Pathname: //Meltrate/ATI-MELTRATE///TABLE/
+     Interpolation: Linear Interpolation
+End:
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataexchange-configuration xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.hec.usace.army.mil/xmlSchema/cwms/dataexchangeconfiguration.xsd">
+  <datastore>
+    <oracle id="Oracle">
+      <host>//155.80.40.112</host>
+      <sid>H1CWMSP1</sid>
+    </oracle>
+  </datastore>
+  <datastore>
+    <model-plugin id="forecast-model-plugin" />
+  </datastore>
+  <datastore>
+    <dssfile id="forecast-dss" />
+  </datastore>
+  <ts-dataexchange-set exchange-data="true" id="Oracle_Daily_Post" sort-order="4.0">
+    <datastore-ref id="Oracle" oracle-ts-store-rule="Delete Insert" ts-override-protection="OFF" />
+    <datastore-ref id="forecast-model-plugin" />
+    <ts-mapping-set />
+    <ensemble />
+  </ts-dataexchange-set>
+  <ts-dataexchange-set exchange-data="true" id="Oracle_Daily_Post1" sort-order="4.0">
+    <datastore-ref id="Oracle" oracle-ts-store-rule="Delete Insert" ts-override-protection="OFF" />
+    <datastore-ref id="forecast-dss" />
+    <ts-mapping-set>
+      <ts-mapping>
+        <cwms-timeseries datastore-id="Oracle">GraysonKY.Flow.Inst.1Hour.0.CELRH-FCST-DAILY</cwms-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//GRAYSONKY/FLOW/26Oct2019 - 01Nov2019/1HOUR/A0S0S0/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <cwms-timeseries datastore-id="Oracle">GraysonKY.Stage.Inst.1Hour.0.CELRH-FCST-DAILY</cwms-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//GRAYSONKY/STAGE/26Oct2019 - 01Nov2019/1HOUR/A0S0S0/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <cwms-timeseries datastore-id="Oracle">Grayson-Lake.Elev.Inst.1Hour.0.CELRH-FCST-DAILY</cwms-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//GRAYSONLAKE-POOL/ELEV(29)/26Oct2019 - 01Nov2019/1HOUR/A0S0S0/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <cwms-timeseries datastore-id="Oracle">Grayson-Lake.Flow.Inst.1Hour.0.CELRH-FCST-DAILY</cwms-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//GRAYSONLAKE/FLOW-IN/26Oct2019 - 01Nov2019/1HOUR/A0S0S0/</dss-timeseries>
+      </ts-mapping>
+      <ts-mapping>
+        <cwms-timeseries datastore-id="Oracle">Grayson-Outflow.Flow.Inst.1Hour.0.CELRH-FCST-DAILY</cwms-timeseries>
+        <dss-timeseries datastore-id="forecast-dss">//GRAYSONLAKE-POOL/FLOW-OUT/26Oct2019 - 01Nov2019/1HOUR/A0S0S0/</dss-timeseries>
+      </ts-mapping>
+    </ts-mapping-set>
+    <ensemble />
+  </ts-dataexchange-set>
+  <timewindow>
+    <starttime>FORECAST+PT0M</starttime>
+    <endtime>SIMEND+PT0M</endtime>
+  </timewindow>
+</dataexchange-configuration>
+

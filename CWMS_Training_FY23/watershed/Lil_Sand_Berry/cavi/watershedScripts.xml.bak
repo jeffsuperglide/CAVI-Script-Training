@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WatershedScriptMgr Name="Watershed Scripts Manager">
+  <Description />
+  <DATA_ACQ>
+    <Script File="cumulus.py" Location="PROJECT" />
+    <Script File="cwms_radar.py" Location="PROJECT" />
+    <Script File="get_usgs.py" Location="PROJECT" />
+  </DATA_ACQ>
+  <DATA_VIS />
+  <FORECAST>
+    <Script File="cumulus.py" Location="PROJECT" />
+    <Script File="cwms_radar.py" Location="PROJECT" />
+    <Script File="get_usgs.py" Location="PROJECT" />
+  </FORECAST>
+</WatershedScriptMgr>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastRun Name="Summer" Key="S0S0S0S0" ProgramOrder="Default" Selected="false" Active="false">
+  <Description />
+  <ProgramOrderInfo ProgramOrderName="Default" Description="Default Program Order" ProgramOrderItemCnt="4">
+    <ProgramOrderItem0 ProgramOrderName="MFP" Description="Precipitation" Index="1" StandardModel="true" InputPosition="-1" IconName="Images/grid17x17.gif" ShortName="MFP" />
+    <ProgramOrderItem1 ProgramOrderName="HMS" Description="Hydrologic" Index="2" StandardModel="true" InputPosition="-1" IconName="Images/hms18.gif" ShortName="HMS" />
+    <ProgramOrderItem2 ProgramOrderName="ResSim" Description="Reservoir Op." Index="3" StandardModel="true" InputPosition="-1" IconName="Images/rss18.gif" ShortName="RSS" />
+    <ProgramOrderItem3 ProgramOrderName="Scripting" Description="Scripting" Index="4" StandardModel="false" InputPosition="-1" IconName="Images/scripting.gif" ShortName="Scripting" />
+  </ProgramOrderInfo>
+  <ModelAlternatives>
+    <ModelAlternative>
+      <Name>RoG_Summer</Name>
+      <Program>MFP</Program>
+    </ModelAlternative>
+    <ModelAlternative>
+      <Name>LSR_Summer</Name>
+      <Program>HMS</Program>
+    </ModelAlternative>
+    <ModelAlternative>
+      <Name>NormOpsSum</Name>
+      <Program>ResSim</Program>
+    </ModelAlternative>
+    <ModelAlternative>
+      <Name>Post Process</Name>
+      <Program>Scripting</Program>
+    </ModelAlternative>
+  </ModelAlternatives>
+</ForecastRun>
+
